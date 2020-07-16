@@ -1,0 +1,26 @@
+#CLASS 0
+#VAR Courts {} {} VAR
+#ADDI Courts "BelC"
+#ADDI Courts "GreyC"
+#ADDI Courts "HobC"
+#ADDI Courts "BreeC"
+#ADDI Courts "RivC"
+#ADDI Courts "DruC"
+#ADDI Courts "AdC"
+#ADDI Courts "CaraC"
+#ADDI Courts "DGC"
+#ADDI Courts "EdoC"
+#ADDI Courts "MTC"
+#ADDI Courts "CitC"
+#ADDI Courts "PelC"
+#ADDI Courts "LinC"
+#ADDI Courts "KadC"
+#ADDI Courts "OutC"
+#ADDI Courts "KHC"
+#ADDI Courts "AsuC"
+#ADDI Courts "TavC"
+#ADDI Courts "AzrakC"
+
+RESET_RoomsLookUp "Courts" "Courts"
+
+#CLASS 0
