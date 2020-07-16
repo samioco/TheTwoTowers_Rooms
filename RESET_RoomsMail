@@ -35,5 +35,5 @@
 #ADDI MAIL "AzmMail"
 #ADDI MAIL "AzrakMail"
 
-RESET_Rooms_Lookup "Mail" "Mail"
+RESET_RoomsLookup "Mail" "Mail"
 #CLASS 0

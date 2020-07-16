@@ -23,5 +23,5 @@
 #ADDI Racials "Druwaur"
 #ADDI Racials "Adornas"
 
-RESET_Rooms_Lookup "Racials" "Racials"
+RESET_RoomsLookup "Racials" "Racials"
 #CLASS 0

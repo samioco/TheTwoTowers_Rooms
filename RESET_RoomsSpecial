@@ -31,6 +31,6 @@
 #ADDI Special "UDD"
 #ADDI Special "PelHH"
 
-RESET_Rooms_Lookup "Special" "Special"
+RESET_RoomsLookup "Special" "Special"
 
 #CLASS 0

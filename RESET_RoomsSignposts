@@ -45,6 +45,6 @@
 #ADDI Signposts_FH "AzrakSP"
 #ADDI Signposts_FH "AzrazSP"
 
-RESET_Rooms_Lookup "Signposts" "Signposts_WestArda|Signposts_Arda|Signposts_FH"
+RESET_RoomsLookup "Signposts" "Signposts_WestArda|Signposts_Arda|Signposts_FH"
 
 #CLASS 0
