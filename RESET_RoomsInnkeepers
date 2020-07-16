@@ -1,0 +1,94 @@
+#CLASS 0
+#VAR Innkeepers_WestArda {} {} VAR
+#ADDI Innkeepers_WestArda "Derlin"
+#ADDI Innkeepers_WestArda "GreyInn"
+#ADDI Innkeepers_WestArda "Borwain"
+#ADDI Innkeepers_WestArda "Nob"
+#ADDI Innkeepers_WestArda "DruInn"
+#ADDI Innkeepers_WestArda "Elkros"
+
+#VAR Innkeepers_Arda {} {} VAR
+#ADDI Innkeepers_Arda "Losien"
+#ADDI Innkeepers_Arda "DaleTents"
+#ADDI Innkeepers_Arda "EsgInn"
+#ADDI Innkeepers_Arda "Krakia"
+#ADDI Innkeepers_Arda "IHInn"
+#ADDI Innkeepers_Arda "LothTents"
+#ADDI Innkeepers_Arda "DGInnHarBar"
+#ADDI Innkeepers_Arda "WayBar"
+#ADDI Innkeepers_Arda "OsgTents"
+#ADDI Innkeepers_Arda "Aldamir"
+#ADDI Innkeepers_Arda "MT4Bar"
+#ADDI Innkeepers_Arda "MTGem"
+#ADDI Innkeepers_Arda "MT7Inn"
+#ADDI Innkeepers_Arda "Talmir"
+#ADDI Innkeepers_Arda "Sealeya"
+#ADDI Innkeepers_Arda "Gilmar"
+#ADDI Innkeepers_Arda "Salfin"
+#ADDI Innkeepers_Arda "LinInn"
+#ADDI Innkeepers_Arda "CalBar"
+#ADDI Innkeepers_Arda "Oci"
+#ADDI Innkeepers_Arda "DHInn"
+
+#VAR Innkeepers_FarHarad {} {} VAR
+#ADDI Innkeepers_FarHarad "Sina"
+#ADDI Innkeepers_FarHarad "Tefah"
+#ADDI Innkeepers_FarHarad "AsuInn"
+#ADDI Innkeepers_FarHarad "Durhami"
+#ADDI Innkeepers_FarHarad "TavInn"
+#ADDI Innkeepers_FarHarad "Voshlor"
+#ADDI Innkeepers_FarHarad "Savern"
+#ADDI Innkeepers_FarHarad "AzrInn"
+
+#VAR Innkeepers_Mordor {} {} VAR
+#ADDI Innkeepers_Mordor "Yathain"
+#ADDI Innkeepers_Mordor "Sabina"
+
+RESET_RoomsLookUp "Innkeepers" "Innkeepers_WestArda|Innkeepers_Arda|Innkeepers_FarHarad|Innkeepers_Mordor"
+
+#VAR ROOMS_InnkeepersInns {} {} VAR
+#ADDI ROOMS_InnkeepersInns "Derlin|BelI"
+#ADDI ROOMS_InnkeepersInns "GreyInn|GreyI"
+#ADDI ROOMS_InnkeepersInns "Borwain|ComI"
+#ADDI ROOMS_InnkeepersInns "Nob|BreeI"
+#ADDI ROOMS_InnkeepersInns "DruInn|DruI"
+#ADDI ROOMS_InnkeepersInns "Elkros|AdI"
+#ADDI ROOMS_InnkeepersInns "Losien|ThranI"
+#ADDI ROOMS_InnkeepersInns "DaleTents|DaleI"
+#ADDI ROOMS_InnkeepersInns "EsgInn|EsgI"
+#ADDI ROOMS_InnkeepersInns "Krakia|AlI"
+#ADDI ROOMS_InnkeepersInns "IHInn|IHI"
+#ADDI ROOMS_InnkeepersInns "LothTents|LothI"
+#ADDI ROOMS_InnkeepersInns "DGInn|DGI"
+#ADDI ROOMS_InnkeepersInns "HarBar|HarI"
+#ADDI ROOMS_InnkeepersInns "WayBar|WayI"
+#ADDI ROOMS_InnkeepersInns "OsgTents|OsgI"
+#ADDI ROOMS_InnkeepersInns "Aldamir|MT2I"
+#ADDI ROOMS_InnkeepersInns "MT4Bar|MT4I"
+#ADDI ROOMS_InnkeepersInns "MTGem|MT6I"
+#ADDI ROOMS_InnkeepersInns "MT7Inn|MT7I"
+#ADDI ROOMS_InnkeepersInns "Talmir|PelI"
+#ADDI ROOMS_InnkeepersInns "Sealeya|MissI"
+#ADDI ROOMS_InnkeepersInns "Gilmar|PoorI"
+#ADDI ROOMS_InnkeepersInns "Salfin|LenI"
+#ADDI ROOMS_InnkeepersInns "LinInn|LinI"
+#ADDI ROOMS_InnkeepersInns "Oci|KadI"
+#ADDI ROOMS_InnkeepersInns "DHInn|DHI"
+#ADDI ROOMS_InnkeepersInns "Yathain|MMI"
+#ADDI ROOMS_InnkeepersInns "Sabina|BDI"
+#ADDI ROOMS_InnkeepersInns "Sina|TarI"
+#ADDI ROOMS_InnkeepersInns "Tefah|KHI"
+#ADDI ROOMS_InnkeepersInns "AsuInn|AsuI"
+#ADDI ROOMS_InnkeepersInns "Durhami|TelI"
+#ADDI ROOMS_InnkeepersInns "TavInn|TavI"
+#ADDI ROOMS_InnkeepersInns "Voshlor|TurI"
+#ADDI ROOMS_InnkeepersInns "Savern|AzmI"
+#ADDI ROOMS_InnkeepersInns "AzrInn|AzrI"
+
+#FORALL @ROOMS_InnkeepersInns {
+  $innkeeper=%item(%i,1)
+  $inn=%item(%i,2)
+  #VAR %concat("ROOMS_InnkeepersInns_",$innkeeper) {$inn} {} VAR
+}
+
+#CLASS 0

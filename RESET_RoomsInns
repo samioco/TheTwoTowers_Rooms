@@ -1,0 +1,49 @@
+#CLASS 0
+#VAR Inns_WestArda {} {} VAR
+#ADDI Inns_WestArda "BelI"
+#ADDI Inns_WestArda "GreyI"
+#ADDI Inns_WestArda "ComI"
+#ADDI Inns_WestArda "BreeI"
+#ADDI Inns_WestArda "DruI"
+#ADDI Inns_WestArda "AdI"
+
+#VAR Inns_Arda {} {} VAR
+#ADDI Inns_Arda "ThranI"
+#ADDI Inns_Arda "DaleI"
+#ADDI Inns_Arda "EsgI"
+#ADDI Inns_Arda "ALI"
+#ADDI Inns_Arda "IHI"
+#ADDI Inns_Arda "LothI"
+#ADDI Inns_Arda "DGI"
+#ADDI Inns_Arda "HarI"
+#ADDI Inns_Arda "WayI"
+#ADDI Inns_Arda "OsgI"
+#ADDI Inns_Arda "MT2IMT4I"
+#ADDI Inns_Arda "MT6I"
+#ADDI Inns_Arda "MT7I"
+#ADDI Inns_Arda "PelI"
+#ADDI Inns_Arda "MissI"
+#ADDI Inns_Arda "PoorI"
+#ADDI Inns_Arda "LenI"
+#ADDI Inns_Arda "LinI"
+#ADDI Inns_Arda "CalI"
+#ADDI Inns_Arda "KadI"
+#ADDI Inns_Arda "DHI"
+
+#VAR Inns_FarHarad {} {} VAR
+#ADDI Inns_FarHarad "TarI"
+#ADDI Inns_FarHarad "KHI"
+#ADDI Inns_FarHarad "AsuI"
+#ADDI Inns_FarHarad "TelI"
+#ADDI Inns_FarHarad "TavI"
+#ADDI Inns_FarHarad "TurI"
+#ADDI Inns_FarHarad "AzmI"
+#ADDI Inns_FarHarad "AzrI"
+
+#VAR Inns_Mordor {} {} VAR
+#ADDI Inns_Mordor "MMI"
+#ADDI Inns_Mordor "BDI"
+
+RESET_RoomsLookUp "Inns" "Inns_WestArda|Inns_Arda|Inns_FarHarad|Inns_Mordor"
+
+#CLASS 0
