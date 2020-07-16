@@ -1,0 +1,35 @@
+#CLASS 0
+#VAR Banks {} {} VAR
+#ADDI Banks "BelB"
+#ADDI Banks "HobB"
+#ADDI Banks "ThranB"
+#ADDI Banks "IHB"
+#ADDI Banks "DGB"
+#ADDI Banks "EdoB"
+#ADDI Banks "MTB"
+#ADDI Banks "LinB"
+#ADDI Banks "PelB"
+#ADDI Banks "KadB"
+#ADDI Banks "CorB"
+#ADDI Banks "BDB"
+#ADDI Banks "TarB"
+#ADDI Banks "KHB"
+#ADDI Banks "TelB"
+#ADDI Banks "AzrakB"
+
+RESET_RoomsLookUp "Banks" "Banks"
+
+#VAR ROOMS_Banks_FH_ID {"AzrakB|TarB|KHB|TelB"} {} VAR
+#VAR ROOMS_Banks_Arda_ER {"KadB|CorB|DGB|BDB"} {} VAR
+#VAR ROOMS_Banks_ER {} {} VAR
+#FORALL @ROOMS_Banks_FH_ID {#ADDI ROOMS_Banks_ER %i}
+#FORALL @ROOMS_Banks_Arda_ER {#ADDI ROOMS_Banks_ER %i}
+
+#VAR ROOMS_Banks_Servant {@ROOMS_BankS_Arda_ER} {} VAR
+#VAR ROOMS_Banks_Arda_FR {"PelB|LinB|MTB|EdoB|ThranB"} {} VAR
+#VAR ROOMS_Banks_WestArda_ID {"BelB|HobB"} {} VAR
+#VAR ROOMS_Banks_FR {} {} VAR
+#FORALL @ROOMS_Banks_WestArda_ID {#ADDI ROOMS_Banks_FR %i}
+#FORALL @ROOMS_Banks_Arda_FR {#ADDI ROOMS_Banks_FR %i}
+
+#CLASS 0
