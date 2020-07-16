@@ -1,0 +1,17 @@
+#CLASS 0
+#VAR Guilds {} {} VAR
+#ADDI Guilds "UDA"
+#ADDI Guilds "UDB"
+#ADDI Guilds "UDV"
+#ADDI Guilds "UDHon"
+#ADDI Guilds "UDGM"
+#ADDI Guilds "Durlach"
+#ADDI Guilds "THArm"
+#ADDI Guilds "THB"
+#ADDI Guilds "THV"
+#ADDI Guilds "GVArm"
+#ADDI Guilds "GVCentral"
+
+RESET_RoomsLookUp "Guilds" "Guilds"
+
+#CLASS 0
