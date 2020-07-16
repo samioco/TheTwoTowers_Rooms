@@ -1,0 +1,48 @@
+#CLASS 0
+#VAR ROOMS_RockyGround {} {} VAR
+#ADDI ROOMS_RockyGround "Rocky Ground"
+#ADDI ROOMS_RockyGround "The foothills of the White Mountains"
+#ADDI ROOMS_RockyGround "Rocky foothills"
+#ADDI ROOMS_RockyGround "Base of foothills"
+
+#VAR ROOMS_Mountains {} {} VAR
+#ADDI ROOMS_Mountains "The Blue Mountains"
+#ADDI ROOMS_Mountains "The White Mountains"
+#ADDI ROOMS_Mountains "The sheer faces of the Misty Mountains"
+#ADDI ROOMS_Mountains "The Misty Mountains"
+#ADDI ROOMS_Mountains "The Grey Mountains"
+#ADDI ROOMS_Mountains "The Mirkwood Mountains"
+#ADDI ROOMS_Mountains "The Wizard's Vale"
+#ADDI ROOMS_Mountains "The Emyn Muil"
+#ADDI ROOMS_Mountains "The bottom of some cliffs"
+#ADDI ROOMS_Mountains "The desert cliffs"
+#ADDI ROOMS_Mountains "The slopes of the grey mountains"
+#ADDI ROOMS_Mountains "At the top of some cliffs"
+#ADDI ROOMS_Mountains "The rocky slopes of a mountain"
+#ADDI ROOMS_Mountains "Sheer Cliffs"
+#ADDI ROOMS_Mountains "The cliffs of Mindolluin"
+#ADDI ROOMS_Mountains "The Rammas Echor"
+#ADDI ROOMS_Mountains "The volcano"
+#ADDI ROOMS_Mountains "At the bottom of a cliff"
+#ADDI ROOMS_Mountains "The top of a cliff"
+#ADDI ROOMS_Mountains "Hollin Ridge"
+#ADDI ROOMS_Mountains "The wall of Mordor"
+#ADDI ROOMS_Mountains "The Fault"
+#ADDI ROOMS_Mountains "At the edge of a deadly chasm"
+#ADDI ROOMS_Mountains "Foot of the Ered Lithui"
+#ADDI ROOMS_Mountains "Foot of the Ephel Duath"
+#ADDI ROOMS_Mountains "The Wizard's Vale"
+#ADDI ROOMS_Mountains "The cleft of the mountain" //Cirith Ungol
+#ADDI ROOMS_Mountains "Inside the Cleft" //Cirith Ungol
+
+#VAR ROOMS_IcyMountains {} {} VAR
+#ADDI ROOMS_IcyMountains "Forodwaith"
+
+#VAR ROOMS_Rocky {} {} VAR
+#FORALL @ROOMS_RockyGround {#ADDI ROOMS_Rocky %i}
+#FORALL @ROOMS_Mountains {#ADDI ROOMS_Rocky %i}
+#FORALL @ROOMS_IcyMountains {#ADDI ROOMS_Rocky %i}
+#FORALL @ROOMS_Rocky {#ADDI ROOMS_Grid %i}
+#DELI ROOMS_Rocky ""
+#DELI ROOMS_Grid ""
+#CLASS 0
