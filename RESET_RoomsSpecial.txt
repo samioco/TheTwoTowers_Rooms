@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsSpecial#CLASS 0#AL RESET_RoomsSpecial {#CLASS 0
 #VAR Special {} {} VAR
 #ADDI Special "Isen"
 #ADDI Special "Fourway"
@@ -33,4 +33,4 @@
 
 RESET_RoomsLookup "Special" "Special"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

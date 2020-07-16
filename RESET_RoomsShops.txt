@@ -1,11 +1,11 @@
-#CLASS 0
+//RESET_RoomsShops#CLASS 0#AL RESET_RoomsShops {#CLASS 0
 #VAR Shops_WestArda {"BelShop|HobShop|BreeShop|RivShop|AdShop"} {} VAR
 #VAR Shops_Arda {"ThranShop|DGShop|EdoShop|PelArm|PelSmith|KadShop|GalShop|OutShop|DHShop"} {} VAR
 #VAR Shops_Mordor {"MMShop|MMSmith|CUShop|CarShop|BDShop|BDSmith|BDArm"} {} VAR
 #VAR Shops_FH {"TarShop|KHShop|AsuShop|TelShop|TavShop|TurShop|AzmShop|AzrazShop|AzrakShop"} {} VAR
 #VAR Shops_Misc {"BuckBoat|PelBoat|KadBoat|KHBoat|Laryn|BreeSmith|Arguindel|ArchetShop|ComShop|EdoWep|DunShop|DGShop|DGArch|CaraShop|CaraSmith|CaraArm|CaraBakery|MoriaShop|DAShop|LinShop|LenShop|Resa|PelFish|PelCandle|KadAuc|KadSmith|MTFood|MTFruit|MTCandle|MT3Shop|MT4Shop|MT6Shop|MTArm|MTSmith|Humgar|HarShop|DHGem|KHSmith|TarSmith|TarAuc|PeltShop|OsgShop|OsgWag|UDShop|WayWag|GVShop|MercShop|MercBow|Alexa|LothShop|IHShop|IHSmith|EreSmith|EreShop|EsgShop|EsgArm|EsgSmith|EsgFish|DaleShop|ALShop|FramShop|AdWag|MDShop|MDSmith|BDBaker|GreyShop|BelSmith"} {} VAR
 
-RESET_Rooms_Lookup "Shops" "Shops_WestArda|Shops_Arda|Shops_Mordor|Shops_FH|Shops_Misc"
+RESET_RoomsLookup "Shops" "Shops_WestArda|Shops_Arda|Shops_Mordor|Shops_FH|Shops_Misc"
 
 #VAR ROOMS_Shops {} {} VAR
 #VAR ROOMS_Shops_ID {} {} VAR
@@ -64,3 +64,4 @@ RESET_Rooms_Lookup "Shops" "Shops_WestArda|Shops_Arda|Shops_Mordor|Shops_FH|Shop
 
 
 #CLASS 0
+} _Rooms#CLASS 0

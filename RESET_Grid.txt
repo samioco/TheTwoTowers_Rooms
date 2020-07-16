@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_Grid#CLASS 0#AL RESET_Grid {#CLASS 0
 #VAR ROOMS_Grid {} {} VAR
 RESET_GridRoomsJunctions
 RESET_GridRoomsGates
@@ -14,3 +14,4 @@ RESET_GridRoomsAddMisc
 RESET_GridRoomsMisc
 #DELI ROOMS_Grid ""
 #CLASS 0
+} _Rooms#CLASS 0

@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsSignposts#CLASS 0#AL RESET_RoomsSignposts {#CLASS 0
 #VAR Signposts_WestArda {} {} VAR
 #ADDI Signposts_WestArda "BelSP"
 #ADDI Signposts_WestArda "GreySP"
@@ -47,4 +47,4 @@
 
 RESET_RoomsLookup "Signposts" "Signposts_WestArda|Signposts_Arda|Signposts_FH"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

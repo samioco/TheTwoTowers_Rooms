@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsHealers#CLASS 0#AL RESET_RoomsHealers {#CLASS 0
 
 #VAR Healers_WestArda {"BelH|ComH|StadH|RivH"} {} VAR
 #VAR Healers_Arda {"FramH|FramOH|ThranH|WoodH|RedSwordH|SFlaskH|DaleH|EsgH|EreH|ALH|IHH|SGH|CaraH|MoriaH|KnollH|DunH|EdoH|OsgH|HutH|MTH|PelH|PelH2|EthH|KadH|HarH|GalH|OutH|CorH|DHH"} {} VAR
@@ -38,4 +38,4 @@ RESET_RoomsLookup "Healers" "Healers_WestArda|Healers_Arda|Healers_FH|Healers_Mo
 #VAR Healers_FR {} {} VAR
 #FORALL @ROOMS_Healers_FR_ID {#ADDI Healers_FR %i}
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

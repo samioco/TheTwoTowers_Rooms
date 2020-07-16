@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsInns#CLASS 0#AL RESET_RoomsInns {#CLASS 0
 #VAR Inns_WestArda {} {} VAR
 #ADDI Inns_WestArda "BelI"
 #ADDI Inns_WestArda "GreyI"
@@ -46,4 +46,4 @@
 
 RESET_RoomsLookUp "Inns" "Inns_WestArda|Inns_Arda|Inns_FarHarad|Inns_Mordor"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

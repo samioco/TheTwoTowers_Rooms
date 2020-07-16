@@ -1,5 +1,4 @@
-#CLASS 0
-RESET_FindHints
+//RESET_Rooms#CLASS 0#AL RESET_Rooms {#CLASS 0
 RESET_Grid
 RESET_RoomsLookup
 RESET_RoomsSignposts
@@ -17,4 +16,4 @@ RESET_RoomsMail
 RESET_RoomsShops
 RESET_RoomsLogin
 #ECHO RESET_Rooms Complete!
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

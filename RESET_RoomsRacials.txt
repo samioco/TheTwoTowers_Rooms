@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsRacials#CLASS 0#AL RESET_RoomsRacials {#CLASS 0
 #VAR Racials {} {} VAR
 #ADDI Racials "Tarzhayan"
 #ADDI Racials "Turseg"
@@ -24,4 +24,4 @@
 #ADDI Racials "Adornas"
 
 RESET_RoomsLookup "Racials" "Racials"
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

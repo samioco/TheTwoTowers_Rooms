@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsLookup#CLASS 0#AL RESET_RoomsLookup {#CLASS 0
 $roomType = %1
 $lookupList = %2
 
@@ -43,3 +43,4 @@ $roomSubType="";$rooms="";$roomID="";$roomNum="";$roomName="";$EXE=""
 #DELI %concat("ROOMS_",$roomType,"_LookUpID") ""
 
 #CLASS 0
+} _Rooms#CLASS 0

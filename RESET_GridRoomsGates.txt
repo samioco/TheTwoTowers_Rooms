@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsGates#CLASS 0#AL RESET_GridRoomsGates {#CLASS 0
 
 #VAR ROOMS_Gates {} {} VAR
 #ADDI ROOMS_Gates "The Grey Havens" //Grey Havens
@@ -94,4 +94,4 @@
 #DELI ROOMS_Gates ""
 #FORALL @ROOMS_Gates {#ADDI ROOMS_Grid %i}
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

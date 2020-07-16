@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsLogin#CLASS 0#AL RESET_RoomsLogin {#CLASS 0
 #VAR ROOMS_Login {} {} VAR
 #VAR ROOMS_Login_LookupID {} {} VAR
 #FORALL @ROOMS_Special {#ADDI ROOMS_Login %i}
@@ -33,4 +33,4 @@
 #DELI ROOMS_Login ""
 #DELI ROOMS_Login_LookupID ""
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

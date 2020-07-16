@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsWater#CLASS 0#AL RESET_GridRoomsWater {#CLASS 0
 
 #VAR ROOMS_WaterBanks {} {} VAR
 #ADDI ROOMS_WaterBanks "The Nimrodel"
@@ -96,4 +96,4 @@
 #DELI ROOMS_Water ""
 #DELI ROOMS_Grid ""
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

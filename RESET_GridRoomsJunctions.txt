@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsJunctions#CLASS 0#AL RESET_GridRoomsJunctions {#CLASS 0
 
 #VAR ROOMS_Bridges {} {} VAR
 #ADDI ROOMS_Bridges "The bridge to Bag End" //Hobbiton
@@ -180,3 +180,4 @@
 
 
 #CLASS 0
+} _Rooms#CLASS 0

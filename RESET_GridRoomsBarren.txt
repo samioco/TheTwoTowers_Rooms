@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsBarren#CLASS 0#AL RESET_GridRoomsBarren {#CLASS 0
 #VAR ROOMS_Barren {} {} VAR
 
 #VAR ROOMS_Swamps {} {} VAR
@@ -42,4 +42,4 @@
 
 #FORALL @ROOMS_Barren {#ADDI ROOMS_Grid %i}
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

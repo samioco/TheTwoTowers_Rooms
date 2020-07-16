@@ -1,4 +1,4 @@
-RESET_GridRoomsMisc
+//RESET_GridRoomsAddMisc#CLASS 0#AL RESET_GridRoomsAddMisc {RESET_GridRoomsMisc
 #SW ((!%ismember(%roomname(),@ROOMS_Grid)) && (!%ismember(%roomname(),@ROOMS_Misc))) {
   //#ECHO Adding MiscRoom: %roomname
   #ADDI ROOMS_Misc %roomname()
@@ -10,8 +10,9 @@ $list=%concat("#VAR ROOMS_Misc {} {} VAR",%CR)
 #FORALL %sort(@ROOMS_Misc) {
   $list=%concat($list,"#ADDI ROOMS_Misc ",~",%i,~",%CR)
 }
-$exe=%concat("#AL RESET_GridRooms_Misc {",%CR)
+$exe=%concat("#AL RESET_GridRoomsMisc {",%CR)
 $exe=%concat($exe,"#CLASS 0",%CR,$list,%CR)
 $exe=%concat($exe,"#DELI ROOMS_Misc ",~"~",%CR)
-$exe=%concat($exe,"#CLASS 0",%CR,"} Tools_Rooms",%CR)
+$exe=%concat($exe,"#CLASS 0",%CR,"} _Rooms",%CR)
 #EXE {$exe}
+} _Rooms#CLASS 0

@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsBars#CLASS 0#AL RESET_RoomsBars {#CLASS 0
 #VAR Bars_WestArda {"BelBar|GreyBar|HobBar|HobBooth|BreeBar|ComBar|DruBar|AdBar"} {} VAR
 #VAR Bars_Arda {"FramBar|ThranBar|DaleBarEsgBar|EreBar|AlBar|IHBar|CaraBar|DGBar|EdoBar|HarBar|WayBar|MercBar|MT3Bar|MT4Bar|MT6Bar|PelBar|PelBar2|KadBar|OutBar|DHBar"} {} VAR
 #VAR Bars_FH {"TarBar|AsuBarTelBar|TavBar|TurBar|AzmBar|AzrakBar"} {} VAR
@@ -7,4 +7,4 @@
 
 RESET_RoomsLookup "Bars" "Bars_WestArda|Bars_Arda|Bars_FH|Bars_Mordor|Bars_Guilds"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

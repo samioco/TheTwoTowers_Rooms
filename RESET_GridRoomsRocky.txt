@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsRocky#CLASS 0#AL RESET_GridRoomsRocky {#CLASS 0
 #VAR ROOMS_RockyGround {} {} VAR
 #ADDI ROOMS_RockyGround "Rocky Ground"
 #ADDI ROOMS_RockyGround "The foothills of the White Mountains"
@@ -45,4 +45,4 @@
 #FORALL @ROOMS_Rocky {#ADDI ROOMS_Grid %i}
 #DELI ROOMS_Rocky ""
 #DELI ROOMS_Grid ""
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

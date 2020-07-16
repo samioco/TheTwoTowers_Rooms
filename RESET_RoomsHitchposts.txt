@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsHitchposts#CLASS 0#AL RESET_RoomsHitchposts {#CLASS 0
 #VAR Hitchposts {} {} VAR
 #ADDI Hitchposts "BelSP"
 #ADDI Hitchposts "HobSP"
@@ -61,4 +61,4 @@ RESET_RoomsLookUp "Hitchposts" "Hitchposts"
 
 RESET_RoomsLookUp "Stables" "Stables"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

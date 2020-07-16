@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsCourts#CLASS 0#AL RESET_RoomsCourts {#CLASS 0
 #VAR Courts {} {} VAR
 #ADDI Courts "BelC"
 #ADDI Courts "GreyC"
@@ -23,4 +23,4 @@
 
 RESET_RoomsLookUp "Courts" "Courts"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

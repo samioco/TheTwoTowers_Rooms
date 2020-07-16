@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsForests#CLASS 0#AL RESET_GridRoomsForests {#CLASS 0
 #VAR ROOMS_LightForests {} {} VAR
 #ADDI ROOMS_LightForests "The Old Forest"
 #ADDI ROOMS_LightForests "Mirkwood"
@@ -30,4 +30,4 @@
 #FORALL @ROOMS_DarkForests {#ADDI ROOMS_Forests %i}
 #FORALL @ROOMS_Forests {#ADDI ROOMS_Grid %i}
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

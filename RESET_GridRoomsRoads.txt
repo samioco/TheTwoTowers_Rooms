@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsRoads#CLASS 0#AL RESET_GridRoomsRoads {#CLASS 0
 #VAR ROOMS_Roads {} {} VAR
 #ADDI ROOMS_Roads "Path"
 #ADDI ROOMS_Roads "A path"
@@ -210,4 +210,4 @@
 #FORALL @ROOMS_Roads {#ADDI ROOMS_Grid %i}
 
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

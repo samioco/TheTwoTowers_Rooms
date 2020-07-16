@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsInnkeepers#CLASS 0#AL RESET_RoomsInnkeepers {#CLASS 0
 #VAR Innkeepers_WestArda {} {} VAR
 #ADDI Innkeepers_WestArda "Derlin"
 #ADDI Innkeepers_WestArda "GreyInn"
@@ -92,3 +92,4 @@ RESET_RoomsLookUp "Innkeepers" "Innkeepers_WestArda|Innkeepers_Arda|Innkeepers_F
 }
 
 #CLASS 0
+} _Rooms#CLASS 0

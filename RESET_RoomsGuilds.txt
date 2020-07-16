@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsGuilds#CLASS 0#AL RESET_RoomsGuilds {#CLASS 0
 #VAR Guilds {} {} VAR
 #ADDI Guilds "UDA"
 #ADDI Guilds "UDB"
@@ -14,4 +14,4 @@
 
 RESET_RoomsLookUp "Guilds" "Guilds"
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsCity#CLASS 0#AL RESET_GridRoomsCity {#CLASS 0
 #VAR ROOMS_BDStairs {} {} VAR
 #ADDI ROOMS_BDStairs "An ominous stairway"
 #ADDI ROOMS_BDStairs "A dimly lit stairway"
@@ -146,3 +146,4 @@
 #FORALL @ROOMS_BDStairs {#ADDI ROOMS_Hallways %i}
 #FORALL @ROOMS_Hallways {#ADDI ROOMS_Grid %i}
 #CLASS 0
+} _Rooms#CLASS 0

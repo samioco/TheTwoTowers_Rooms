@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsMail#CLASS 0#AL RESET_RoomsMail {#CLASS 0
 #VAR Mail {} {} VAR
 #ADDI MAIL "BelMail"
 #ADDI MAIL "GreyMail"
@@ -36,4 +36,4 @@
 #ADDI MAIL "AzrakMail"
 
 RESET_RoomsLookup "Mail" "Mail"
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

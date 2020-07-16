@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_RoomsBanks#CLASS 0#AL RESET_RoomsBanks {#CLASS 0
 #VAR Banks {} {} VAR
 #ADDI Banks "BelB"
 #ADDI Banks "HobB"
@@ -32,4 +32,4 @@ RESET_RoomsLookUp "Banks" "Banks"
 #FORALL @ROOMS_Banks_WestArda_ID {#ADDI ROOMS_Banks_FR %i}
 #FORALL @ROOMS_Banks_Arda_FR {#ADDI ROOMS_Banks_FR %i}
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0

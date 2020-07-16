@@ -1,4 +1,4 @@
-#CLASS 0
+//RESET_GridRoomsPlains#CLASS 0#AL RESET_GridRoomsPlains {#CLASS 0
 #VAR ROOMS_LightPlains {} {} VAR
 #ADDI ROOMS_LightPlains "Shire Plains"
 #ADDI ROOMS_LightPlains "The plains of the Shire"
@@ -67,4 +67,4 @@
 #FORALL @ROOMS_Hills {#ADDI ROOMS_Plains %i}
 #FORALL @ROOMS_Plains {#ADDI ROOMS_Grid %i}
 
-#CLASS 0
+#CLASS 0} _Rooms#CLASS 0
