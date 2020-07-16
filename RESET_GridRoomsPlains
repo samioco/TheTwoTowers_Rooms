@@ -1,0 +1,70 @@
+#CLASS 0
+#VAR ROOMS_LightPlains {} {} VAR
+#ADDI ROOMS_LightPlains "Shire Plains"
+#ADDI ROOMS_LightPlains "The plains of the Shire"
+#ADDI ROOMS_LightPlains "The fabled gardens of Rivendell"
+#ADDI ROOMS_LightPlains "The far eastern plains of Rhun"
+#ADDI ROOMS_LightPlains "Rohan Plains"
+#ADDI ROOMS_LightPlains "Vast rolling grasslands"
+#ADDI ROOMS_LightPlains "A young glade"
+
+#VAR ROOMS_DarkPlains {} {} VAR
+#ADDI ROOMS_DarkPlains "The Plains"
+#ADDI ROOMS_DarkPlains "The plains"
+#ADDI ROOMS_DarkPlains "Rohan Lowlands"
+#ADDI ROOMS_DarkPlains "The Plains of Rivendell"
+#ADDI ROOMS_DarkPlains "The far east plains of Rhun"
+#ADDI ROOMS_DarkPlains "The plains of Enedwaith"
+#ADDI ROOMS_DarkPlains "The Plains of Enedwaith"
+#ADDI ROOMS_DarkPlains "Green-Hill Country"
+#ADDI ROOMS_DarkPlains "Western Rohan"
+#ADDI ROOMS_DarkPlains "Some grassy plains"
+#ADDI ROOMS_DarkPlains "The Pelennor Fields"
+
+#VAR ROOMS_Valleys {} {} VAR
+#ADDI ROOMS_Valleys "Tall grassy reeds"
+#ADDI ROOMS_Valleys "Ringlo Vale"
+#ADDI ROOMS_Valleys "The Tumladen Valley"
+#ADDI ROOMS_Valleys "The Valley of Lossarnach"
+#ADDI ROOMS_Valleys "The Valley of the Gilrain"
+#ADDI ROOMS_Valleys "Bunabo Valley"
+#ADDI ROOMS_Valleys "The Snowbourne Valley"
+#ADDI ROOMS_Valleys "Harrowdale"
+#ADDI ROOMS_Valleys "Bunabo Valley"
+#ADDI ROOMS_Valleys "The Downs"
+#ADDI ROOMS_Valleys "The Brown Lands"
+#ADDI ROOMS_Valleys "A small valley"
+
+#VAR ROOMS_Hills {} {} VAR
+#ADDI ROOMS_Hills "The North Downs"
+#ADDI ROOMS_Hills "The South Downs"
+#ADDI ROOMS_Hills "The Twilight Hills"
+#ADDI ROOMS_Hills "The Hills of Evendim"
+#ADDI ROOMS_Hills "The Hills of Scary"
+#ADDI ROOMS_Hills "The Barrow Downs"
+#ADDI ROOMS_Hills "The Barrow-Downs"
+#ADDI ROOMS_Hills "The hills of Dunland"
+#ADDI ROOMS_Hills "The Chetwood"
+#ADDI ROOMS_Hills "The Hills of Chetwood"
+#ADDI ROOMS_Hills "Weathertop"
+#ADDI ROOMS_Hills "Bree-hill"
+#ADDI ROOMS_Hills "The Trollshaws"
+#ADDI ROOMS_Hills "Ancient Hollin"
+#ADDI ROOMS_Hills "The Tower Hills"
+#ADDI ROOMS_Hills "Emyn Arnen"
+#ADDI ROOMS_Hills "Haudh-in-Gwanur"
+#ADDI ROOMS_Hills "Hills of Tarnost"
+#ADDI ROOMS_Hills "Tarlang's Neck"
+#ADDI ROOMS_Hills "Low moorland hills"
+#ADDI ROOMS_Hills "Northern scrubland"
+#ADDI ROOMS_Hills "The Green Hill Country"
+#ADDI ROOMS_Hills "The Wold"
+
+#VAR ROOMS_Plains {} {} VAR
+#FORALL @ROOMS_LightPlains {#ADDI ROOMS_Plains %i}
+#FORALL @ROOMS_DarkPlains {#ADDI ROOMS_Plains %i}
+#FORALL @ROOMS_Valleys {#ADDI ROOMS_Plains %i}
+#FORALL @ROOMS_Hills {#ADDI ROOMS_Plains %i}
+#FORALL @ROOMS_Plains {#ADDI ROOMS_Grid %i}
+
+#CLASS 0
