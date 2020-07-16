@@ -1,0 +1,41 @@
+#CLASS 0
+
+#VAR Healers_WestArda {"BelH|ComH|StadH|RivH"} {} VAR
+#VAR Healers_Arda {"FramH|FramOH|ThranH|WoodH|RedSwordH|SFlaskH|DaleH|EsgH|EreH|ALH|IHH|SGH|CaraH|MoriaH|KnollH|DunH|EdoH|OsgH|HutH|MTH|PelH|PelH2|EthH|KadH|HarH|GalH|OutH|CorH|DHH"} {} VAR
+#VAR Healers_FH {"TarH|KHH|TurH|AzrakH"} {} VAR
+#VAR Healers_Mordor {"MMH|NarH|CUH|RedH|FLSH|PBSH|BDBar"} {} VAR
+#VAR Healers_Misc {"SFlaskH|EsgH|MoriaH|RedSwordH|WoodH"} {} VAR
+#VAR Healers_Roaming {"KhamH|ThranH|DHH|TavH"} {} VAR
+RESET_RoomsLookup "Healers" "Healers_WestArda|Healers_Arda|Healers_FH|Healers_Mordor|Healers_Misc|Healers_Roaming"
+#DELI ROOMS_Healers "r"
+#DELI ROOMS_Healers ""
+
+#VAR Healers_All {} {} VAR
+#FORALL @ROOMS_Healers_ID {#ADDI Healers_All %i}
+#FORALL "TavH|DHH|KhamH|ThranH" {#ADDI Healers_All %i}
+
+#DELI Healers_All ""
+#DELI ROOMS_Healers ""
+#DELI ROOMS_Healers_ID ""
+#DELI ROOMS_Healers_LookUpID ""
+
+#VAR ROOMS_Healers_ER_ID {} {} VAR
+#FORALL "FramOH|DaleH|ALH|SGH|KnollH|DunH|OsgH|HutH|KadH|HarH|OutH|CorH|DHH" {#ADDI ROOMS_Healers_ER_ID %i}
+#FORALL @ROOMS_Healers_Mordor_ID {#ADDI ROOMS_Healers_ER_ID %i}
+#FORALL @ROOMS_Healers_FH_ID {#ADDI ROOMS_Healers_ER_ID %i}
+
+#VAR Healers_ER {} {} VAR
+#FORALL @ROOMS_Healers_ER_ID {#ADDI Healers_ER %i}
+
+#VAR ROOMS_Healers_Servant_ID {} {} VAR
+#FORALL "FramOH|KhamH|DaleH|ALH|SGH|KnollH|DunH|OsgH|HutH|KadH|HarH|OutH|CorH|DHH" {#ADDI ROOMS_Healers_Servant_ID %i}
+#FORALL @ROOMS_Healers_Mordor_ID {#ADDI ROOMS_Healers_Servant_ID %i}
+
+#VAR ROOMS_Healers_FR_ID {} {} VAR
+#FORALL "FramH|ThranH|DaleH|CaraH|KnollH|DunH|EdoH|OsgH|HutH|MTH|PelH|PelH2|EthH|GalH|CorH|DHH" {#ADDI ROOMS_Healers_FR_ID %i}
+#FORALL @ROOMS_Healers_WestArda_ID {#ADDI ROOMS_Healers_FR_ID %i}
+
+#VAR Healers_FR {} {} VAR
+#FORALL @ROOMS_Healers_FR_ID {#ADDI Healers_FR %i}
+
+#CLASS 0
