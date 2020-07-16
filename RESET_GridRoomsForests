@@ -1,0 +1,33 @@
+#CLASS 0
+#VAR ROOMS_LightForests {} {} VAR
+#ADDI ROOMS_LightForests "The Old Forest"
+#ADDI ROOMS_LightForests "Mirkwood"
+#ADDI ROOMS_LightForests "Druadan Forest"
+#ADDI ROOMS_LightForests "The thick forest of Rivendell"
+#ADDI ROOMS_LightForests "Lothlorien"
+#ADDI ROOMS_LightForests "Near a guard flet"
+#ADDI ROOMS_LightForests "The Firien Wood"
+#ADDI ROOMS_LightForests "The Wild"
+#ADDI ROOMS_LightForests "The Druwaith Iaur"
+#ADDI ROOMS_LightForests "Tall grassy reeds"
+#ADDI ROOMS_LightForests "A clump of trees"
+#ADDI ROOMS_LightForests "The edge of the Eastern Forest"
+#ADDI ROOMS_LightForests "The Western Forest"
+#ADDI ROOMS_LightForests "The Petrified Forest"
+#ADDI ROOMS_LightForests "A small forest by the banks of the Anduin"
+#ADDI ROOMS_LightForests "A small forest"
+
+#VAR ROOMS_DarkForests {} {} VAR
+#ADDI ROOMS_DarkForests "A dark, gloomy part of the Mirkwood"
+#ADDI ROOMS_DarkForests "Fangorn Forest"
+#ADDI ROOMS_DarkForests "Ithilien forest"
+#ADDI ROOMS_DarkForests "The Eastern Forest"
+#ADDI ROOMS_DarkForests "The Black Woods"
+#ADDI ROOMS_DarkForests "The Old Forest"
+
+#VAR ROOMS_Forests {} {} VAR
+#FORALL @ROOMS_LightForests {#ADDI ROOMS_Forests %i}
+#FORALL @ROOMS_DarkForests {#ADDI ROOMS_Forests %i}
+#FORALL @ROOMS_Forests {#ADDI ROOMS_Grid %i}
+
+#CLASS 0

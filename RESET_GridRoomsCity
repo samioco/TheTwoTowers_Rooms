@@ -1,0 +1,148 @@
+#CLASS 0
+#VAR ROOMS_BDStairs {} {} VAR
+#ADDI ROOMS_BDStairs "An ominous stairway"
+#ADDI ROOMS_BDStairs "A dimly lit stairway"
+#ADDI ROOMS_BDStairs "An ominous stairway"
+#ADDI ROOMS_BDStairs "A dark stairway"
+#ADDI ROOMS_BDStairs "The level three guardpost"
+#ADDI ROOMS_BDStairs "The level two guardpost"
+
+#VAR ROOMS_Stairs {} {} VAR
+#ADDI ROOMS_Stairs "A stairway"
+#ADDI ROOMS_Stairs "The top of the stairs"
+#ADDI ROOMS_Stairs "Top of stairs" //Erebor
+#ADDI ROOMS_Stairs "A long stairway" //Erebor
+#ADDI ROOMS_Stairs "A flight of stairs" //Erebor
+#ADDI ROOMS_Stairs "Bottom of longstairs" //Erebor
+#ADDI ROOMS_Stairs "Bottom of stairs" //Erebor, CitADel
+#ADDI ROOMS_Stairs "The stairs of the hold" //Dunharrow at Harrowdale
+#ADDI ROOMS_Stairs "The Endless Stair" //Moria
+#ADDI ROOMS_Stairs "A stone staircase" //Moria
+#ADDI ROOMS_Stairs "Amidst a stone staircase" //Moria
+#ADDI ROOMS_Stairs "A stone staircase" //Moria
+#ADDI ROOMS_Stairs "A winding staircase" //Corsair Keep
+#ADDI ROOMS_Stairs "A broad flight of stairs" //Cirith Ungol Road
+#ADDI ROOMS_Stairs "Narchost Stairs Level One"
+#ADDI ROOMS_Stairs "Narchost Stairs Level Two"
+#ADDI ROOMS_Stairs "Narchost Stairs Level Three"
+#ADDI ROOMS_Stairs "A mysterious stairway" //Carchost
+#ADDI ROOMS_Stairs "Bottom landing of the turret stairs" //Cirith Ungol
+#ADDI ROOMS_Stairs "Top landing of the turret stairs" //Cirith Ungol
+#ADDI ROOMS_Stairs "A stairwell in the cellars" //Cirith Ungol
+
+#DELI ROOMS_Stairs ""
+#FORALL @ROOMS_Stairs {#ADDI ROOMS_Grid %i}
+
+
+//Courtyards
+#VAR ROOMS_Courtyards {} {} VAR
+#ADDI ROOMS_Courtyards "A courtyard" //Minas Tirith CitADel
+#ADDI ROOMS_Courtyards "CitADel, outside" //Minas Tirith
+#ADDI ROOMS_Courtyards "A courtyard in Harlond" //Harlond
+#ADDI ROOMS_Courtyards "A vast and dismal courtyard" //Baraddur
+#ADDI ROOMS_Courtyards "Approaching the outer wall" //Baraddur
+#ADDI ROOMS_Courtyards "A packed dirt courtyard" //Minas Morgul
+#ADDI ROOMS_Courtyards "A dark courtyard" //Minas Morgul
+#ADDI ROOMS_Courtyards "The Hall of Assembly" // Iron Hills City
+#ADDI ROOMS_Courtyards "The courtyard of Cirith Ungol" //Cirith Ungol
+#ADDI ROOMS_Courtyards "A courtyard outside the barracks" //Linhir
+#ADDI ROOMS_Courtyards "Prancing Pony courtyard" //Bree
+#ADDI ROOMS_Courtyards "The center of the courtyard" //Merc Outpost
+#ADDI ROOMS_Courtyards "West courtyard" //Merc Outpost
+#ADDI ROOMS_Courtyards "North courtyard" //Merc Outpost
+#ADDI ROOMS_Courtyards "East courtyard" //Merc Outpost
+#ADDI ROOMS_Courtyards "South courtyard" //Merc Outpost
+#DELI ROOMS_Courtyards ""
+#FORALL @ROOMS_Courtyards {#ADDI ROOMS_Grid %i}
+
+
+//Walls
+#VAR ROOMS_Walls {} {} VAR
+#ADDI ROOMS_Walls "On a walkway above Minas Tirith"
+#ADDI ROOMS_Walls "At the end of a walkway above Minas Tirith"
+#ADDI ROOMS_Walls "The CitADel's outer wall"
+#ADDI ROOMS_Walls "On the Battlement"
+#ADDI ROOMS_Walls "At the foot of the Dark Tower"
+#ADDI ROOMS_Walls "Near the outer wall of Barad-dur"
+#ADDI ROOMS_Walls "The base of a tower in Barad-dur's outer wall"
+#ADDI ROOMS_Walls "The second level of a tower in Barad-dur's outer wall"
+#ADDI ROOMS_Walls "The turret of a tower in Barad-dur's outer wall"
+#ADDI ROOMS_Walls "The Walls of Minas Tirith"
+#ADDI ROOMS_Walls "The Minas Morgul battlements"
+#ADDI ROOMS_Walls "The city wall"
+#ADDI ROOMS_Walls "Inside the walls of Minas Morgul"
+#ADDI ROOMS_Walls "The outer wall"
+#ADDI ROOMS_Walls "Inside an outer tower"
+#ADDI ROOMS_Walls "A wall encircling the stronghold"
+#ADDI ROOMS_Walls "A watch-tower overlooking the stronghold"
+#ADDI ROOMS_Walls "Within a turret inside the Linhir city wall" //Linhir
+#ADDI ROOMS_Walls "Inside a turret atop the Linhir city wall" //Linhir
+#ADDI ROOMS_Walls "On the battlements atop the Linhir city wall" //Linhir
+#DELI ROOMS_Walls ""
+#FORALL @ROOMS_Walls {#ADDI ROOMS_Grid %i}
+
+
+#VAR ROOMS_Halls {} {} VAR
+#ADDI ROOMS_Halls "A large entry hall" //Baraddur
+#ADDI ROOMS_Halls "A large assembly hall" //Baraddur
+#ADDI ROOMS_Halls "A small prayer room for priests" //Baraddur
+#ADDI ROOMS_Halls "A sitting room for priests" //Baraddur
+#ADDI ROOMS_Halls "A robing room for priests" //Baraddur
+#ADDI ROOMS_Halls "An anteroom for acolytes" //Baraddur
+#ADDI ROOMS_Halls "An anteroom for generals" //Baraddur
+#ADDI ROOMS_Halls "A robing room for generals" //Baraddur
+#ADDI ROOMS_Halls "A sitting room for generals" //Baraddur
+#ADDI ROOMS_Halls "A briefing room for generals" //Baraddur
+#ADDI ROOMS_Halls "The entrance hall" //Corsair Keep
+#ADDI ROOMS_Halls "The great hall in utter chaos" //Corsair Keep
+#ADDI ROOMS_Halls "An entrance hall" //Cirith Ungol
+#ADDI ROOMS_Halls "Main Hall" //Narchost
+#ADDI ROOMS_Halls "In the hall of the Carchost"
+#ADDI ROOMS_Halls "The great hall"
+#ADDI ROOMS_Halls "Before the Golden Hall" //Edoras
+#ADDI ROOMS_Halls "The Porch of the Golden Hall" //Edoras
+#ADDI ROOMS_Halls "An empty stone hall"
+#ADDI ROOMS_Halls "The Pelargir Keep's main hall"
+#ADDI ROOMS_Halls "The Pelargir Keep's upper hall"
+#ADDI ROOMS_Halls "The Udungul Council Chamber"
+#DELI ROOMS_Halls ""
+#FORALL @ROOMS_Halls {#ADDI ROOMS_Grid %i}
+
+
+#VAR ROOMS_Hallways {} {} VAR
+#ADDI ROOMS_Hallways "A hallway"
+#ADDI ROOMS_Hallways "Main hallway"
+#ADDI ROOMS_Hallways "A narrow corridor"
+#ADDI ROOMS_Hallways "A long hallway"
+#ADDI ROOMS_Hallways "A long corridor"
+#ADDI ROOMS_Hallways "A dark corridor"
+#ADDI ROOMS_Hallways "A twisting tunnel"
+#ADDI ROOMS_Hallways "A torch-lit hallway" //Cirith Ungol
+#ADDI ROOMS_Hallways "A dark hallway" //Baraddur
+#ADDI ROOMS_Hallways "A guard post" //Baraddur
+#ADDI ROOMS_Hallways "A guard post in the hallway"
+#ADDI ROOMS_Hallways "A corner of a hallway" //Prod
+#ADDI ROOMS_Hallways "A brilliant hallway" //Prod
+#ADDI ROOMS_Hallways "A short, decorated hallway" //Prod
+#ADDI ROOMS_Hallways "A cold eerie hallway" //Prod
+#ADDI ROOMS_Hallways "A narrow hallway" //Prod
+#ADDI ROOMS_Hallways "A dingy, unused hallway" //Prod
+#ADDI ROOMS_Hallways "A tunnel in the Wormholes" //Wormholes
+#ADDI ROOMS_Hallways "A dark, stinky tunnel" //Wormholes
+#ADDI ROOMS_Hallways "A window room" //Wormholes
+#ADDI ROOMS_Hallways "A Large Corridor" //Narchost
+#ADDI ROOMS_Hallways "A corridor in the Carchost"
+#ADDI ROOMS_Hallways "A cellar hallway"
+#ADDI ROOMS_Hallways "An embellished hallway" //Udungul
+#ADDI ROOMS_Hallways "North Hallway" //Udungul
+#ADDI ROOMS_Hallways "East Hallway" //Udungul
+#ADDI ROOMS_Hallways "A rough-hewn passageway" //Udungul
+#ADDI ROOMS_Hallways "A corridor"
+#ADDI ROOMS_Hallways "Long hall"
+#ADDI ROOMS_Hallways "A long hallway inside the barracks" //Linhir
+#ADDI ROOMS_Hallways "A tan-colored hallway"
+#ADDI ROOMS_Hallways "A dark narrow hallway"
+#ADDI ROOMS_Hallways "A dim hallway"
+#FORALL @ROOMS_BDStairs {#ADDI ROOMS_Hallways %i}
+#FORALL @ROOMS_Hallways {#ADDI ROOMS_Grid %i}
+#CLASS 0
