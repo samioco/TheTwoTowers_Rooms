@@ -1,0 +1,45 @@
+#CLASS 0
+$roomType = %1
+$lookupList = %2
+
+#VAR %concat("ROOMS_",$roomType) {} {} VAR
+#VAR %concat("ROOMS_",$roomType,"_ID") {} {} VAR
+#VAR %concat("ROOMS_",$roomType,"_LookUpID") {} {} VAR
+
+$roomSubType="";$rooms="";$roomID="";$roomNum="";$roomName="";$EXE=""
+#FORALL $lookupList {
+  $roomSubType=%i
+  #IF ($roomType!=$roomSubType) {
+    #VAR %concat("ROOMS_",$roomSubType) {} {} VAR
+    #VAR %concat("ROOMS_",$roomSubType,"_ID") {} {} VAR
+    #VAR %concat("ROOMS_",$roomSubType,"_LookupID") {} {} VAR
+  }
+  $rooms=@{%i}
+  #FORALL $rooms {
+    $roomID=%j
+    #IF (%roomid($roomID)) {
+      $roomNum=%roomnum($roomID)
+      $roomName=%roomname($roomNum)
+      #IF (($roomID) && ($roomName)) {
+        $EXE = %concat("#ADDI ROOMS_",$roomSubType," ",~",$roomName,~")
+        #EXE $EXE
+        $EXE = %concat("#ADDI ROOMS_",$roomSubType,"_ID"," ",~",$roomID,~")
+        #EXE $EXE
+        $EXE = %concat("#ADDI ROOMS_",$roomSubType,"_LookUpID"," ",~",$roomName,"|",$roomID,~")
+        #EXE $EXE
+      }
+    }
+  }
+  #IF ($roomType!=$roomSubType) {
+    #FORALL @{%concat("ROOMS_",%i)} {#ADDI ROOMS_Grid %j}
+    #FORALL @{%concat("ROOMS_",%i)} {#ADDI %concat("ROOMS_",$roomType) %j}
+    #FORALL @{%concat("ROOMS_",%i,"_ID")} {#ADDI %concat("ROOMS_",$roomType,"_ID") %j}
+    #FORALL @{%concat("ROOMS_",%i,"_LookUpID")} {#ADDI %concat("ROOMS_",$roomType,"_LookUpID") %j}
+  }
+}
+
+#DELI %concat("ROOMS_",$roomType) ""
+#DELI %concat("ROOMS_",$roomType,"_ID") ""
+#DELI %concat("ROOMS_",$roomType,"_LookUpID") ""
+
+#CLASS 0

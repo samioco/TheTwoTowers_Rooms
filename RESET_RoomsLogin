@@ -1,0 +1,36 @@
+#CLASS 0
+#VAR ROOMS_Login {} {} VAR
+#VAR ROOMS_Login_LookupID {} {} VAR
+#FORALL @ROOMS_Special {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Special_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Signposts {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Signposts_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_InnKeepers {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Innkeepers_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Inns {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Inns_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Bars {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Bars_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Guilds {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Guilds_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Racials {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Racials_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Healers {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Shops {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Shops_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Shops_Misc {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Shops_Misc_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Healers_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Hitchposts {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Hitchposts_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Banks {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Banks_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Mail {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Mail_LookupID {#ADDI ROOMS_Login_LookupID %i}
+#FORALL @ROOMS_Courts {#ADDI ROOMS_Login %i}
+#FORALL @ROOMS_Courts_LookupID {#ADDI ROOMS_Login_LookupID %i}
+
+#DELI ROOMS_Login ""
+#DELI ROOMS_Login_LookupID ""
+
+#CLASS 0
