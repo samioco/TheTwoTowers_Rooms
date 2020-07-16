@@ -1,0 +1,97 @@
+#CLASS 0
+
+#VAR ROOMS_Gates {} {} VAR
+#ADDI ROOMS_Gates "The Grey Havens" //Grey Havens
+#ADDI ROOMS_Gates "Welcome to Belegost!" //Belegost
+#ADDI ROOMS_Gates "Hobbiton" //Hobbiton
+#ADDI ROOMS_Gates "Bywater" //Bywater
+#ADDI ROOMS_Gates "The northern end of Bree" //Bree
+#ADDI ROOMS_Gates "The southern end of Bree" //Bree
+#ADDI ROOMS_Gates "The South-gate of Bree" //Bree
+#ADDI ROOMS_Gates "South Gate of Staddle"
+#ADDI ROOMS_Gates "Forest Gate" //Western Gate of Mirkwood Path
+#ADDI ROOMS_Gates "The outpost gatehouse" //Mercenary Outpost
+#ADDI ROOMS_Gates "The keep entrance" //Mercenary Outpost
+#ADDI ROOMS_Gates "Inside the gates of Minas Tirith" //Minas Tirith
+#ADDI ROOMS_Gates "Gatehouse leading to level three" //Minas Tirith
+#ADDI ROOMS_Gates "A large gate" //Minas Tirith
+#ADDI ROOMS_Gates "The seventh gate of Minas Tirith" //Minas Tirith
+#ADDI ROOMS_Gates "An Arched Gate" //Minas Tirith
+#ADDI ROOMS_Gates "The entrance to the White Tower" //Minas Tirith
+#ADDI ROOMS_Gates "Before the Linhir city gates" //Linhir
+#ADDI ROOMS_Gates "At the town square inside the main gate of the city" //Linhir
+#ADDI ROOMS_Gates "Inside the river gate of the city" //Linhir
+#ADDI ROOMS_Gates "Outside the river gate at the port of Linhir" //Linhir
+#ADDI ROOMS_Gates "Inside the south gate of the city" //Linhir
+#ADDI ROOMS_Gates "Inside the north gate of the city" //Linhir
+#ADDI ROOMS_Gates "The east gates of Pelargir"
+#ADDI ROOMS_Gates "The King's Bridge gate" //Pelargir
+#ADDI ROOMS_Gates "West gate of Osgiliath"
+#ADDI ROOMS_Gates "The East gate of Osgiliath"
+#ADDI ROOMS_Gates "East Gate of Osgiliath"
+#ADDI ROOMS_Gates "The center of Osgiliath"
+#ADDI ROOMS_Gates "Center of Osgiliath"
+#ADDI ROOMS_Gates "The gates of Minas Morgul"
+#ADDI ROOMS_Gates "Inside the main gates of Minas Morgul"
+#ADDI ROOMS_Gates "Before the gate of the Tower of Barad-dur"
+#ADDI ROOMS_Gates "A gate through the wall" // BD Wall Gate
+#ADDI ROOMS_Gates "At the gate" // Mordor Gate
+#ADDI ROOMS_Gates "Inside the gate" // Mordor Gate
+#ADDI ROOMS_Gates "In front of the Morgul gate" // Morgul Gate
+#ADDI ROOMS_Gates "A guard post in the Morgul gate" // Morgul Gate
+#ADDI ROOMS_Gates "Behind the Morgul gate" // Morgul Gate
+#ADDI ROOMS_Gates "Inside Mordor" // Inside Mordor
+#ADDI ROOMS_Gates "The Morannon" // Inside Mordor
+#ADDI ROOMS_Gates "The foot of the Ered Lithui" // Wormholes
+#ADDI ROOMS_Gates "The entrance of the Maggot-holes" // Wormholes
+#ADDI ROOMS_Gates "The Carchost gate"
+#ADDI ROOMS_Gates "Pass to the Carchost"
+#ADDI ROOMS_Gates "Narchost Entrance"
+#ADDI ROOMS_Gates "Pass to the Narchost"
+#ADDI ROOMS_Gates "A staging-area inside the Undergate"
+#ADDI ROOMS_Gates "Inside the outer gate" // Dol Guldur
+#ADDI ROOMS_Gates "Gates to mighty Caras Galadhon"
+#ADDI ROOMS_Gates "Inside Caras Galadhon"
+#ADDI ROOMS_Gates "Entrance to Framsburg"
+#ADDI ROOMS_Gates "The gates to Thranduil's kingdom"
+#ADDI ROOMS_Gates "Erebor Gate"
+#ADDI ROOMS_Gates "Front gate" // Erebor
+#ADDI ROOMS_Gates "Before the gate" // Iron Hills City
+#ADDI ROOMS_Gates "Approaching Edoras"
+#ADDI ROOMS_Gates "Path to Lendin"
+#ADDI ROOMS_Gates "Dunlending Camp" // DunCamp
+#ADDI ROOMS_Gates "Outside of Camp" // DunCamp
+#ADDI ROOMS_Gates "Camp Entrance" // DunCamp
+#ADDI ROOMS_Gates "The doors of Isengard"
+#ADDI ROOMS_Gates "The entrance to Isengard"
+#ADDI ROOMS_Gates "Entrance to Dead Marshes" // Dead Marshes
+#ADDI ROOMS_Gates "Murky path" // Dead Marshes
+#ADDI ROOMS_Gates "Hidden entrance" // Dead Marshes
+#ADDI ROOMS_Gates "Before an abandoned village" // Ghost Village
+#ADDI ROOMS_Gates "The Village of Lendin"
+#ADDI ROOMS_Gates "The south end of Ethring"
+#ADDI ROOMS_Gates "The north end of Ethring"
+#ADDI ROOMS_Gates "The Town of Calembel"
+#ADDI ROOMS_Gates "The Dwimorberg"
+#ADDI ROOMS_Gates "The gates of Harlond"
+#ADDI ROOMS_Gates "Inside the north gate" // Outpost
+#ADDI ROOMS_Gates "Before the south gate" // Outpost
+#ADDI ROOMS_Gates "A forming caravan"
+#ADDI ROOMS_Gates "Somewhere in the desert"
+#ADDI ROOMS_Gates "The City of the Corsairs"
+#ADDI ROOMS_Gates "The Tower of Cirith Ungol"
+#ADDI ROOMS_Gates "An entry to a dunedain camp" //Baraddur dunedain Camp
+#ADDI ROOMS_Gates "The entrance to a small camp" //Baraddur dunedain Camp
+#ADDI ROOMS_Gates "The Black Drums camp" //Baraddur easterling Camp
+#ADDI ROOMS_Gates "At the entrance to an easterling camp" //Baraddur easterling Camp
+#ADDI ROOMS_Gates "The Red Snake camp" //Baraddur orc camp
+#ADDI ROOMS_Gates "At the entrance to an orc camp" //Baraddur orc camp
+#ADDI ROOMS_Gates "Entrance to a large camp" //Busy Orc Camp ASB
+#ADDI ROOMS_Gates "Entrance to an olog-hai camp" //Cleaver
+#ADDI ROOMS_Gates "The entrance to the sewers of Minas Morgul" //Minas Morgul
+#ADDI ROOMS_Gates "Old ruins" //Strange Runed Staff
+#ADDI ROOMS_Gates "The entrance to the tower of Telshar" //Telshar
+#DELI ROOMS_Gates ""
+#FORALL @ROOMS_Gates {#ADDI ROOMS_Grid %i}
+
+#CLASS 0
