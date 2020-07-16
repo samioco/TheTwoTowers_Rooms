@@ -1,0 +1,99 @@
+#CLASS 0
+
+#VAR ROOMS_WaterBanks {} {} VAR
+#ADDI ROOMS_WaterBanks "The Nimrodel"
+#ADDI ROOMS_WaterBanks "The quays of Harlond"
+#ADDI ROOMS_WaterBanks "The banks of the Lune River"
+#ADDI ROOMS_WaterBanks "The banks of the Crimson River"
+#ADDI ROOMS_WaterBanks "The shores of the Inner Seas"
+#ADDI ROOMS_WaterBanks "The shores of the Belegaer sea"
+#ADDI ROOMS_WaterBanks "The shores of Belegaer"
+#ADDI ROOMS_WaterBanks "The Haven of Umbar"
+#ADDI ROOMS_WaterBanks "The banks of a river"
+#ADDI ROOMS_WaterBanks "Along the Great Sea"
+#ADDI ROOMS_WaterBanks "The Mering Stream"
+#ADDI ROOMS_WaterBanks "Banks of the Lune River" //Eriador: Grey Havens
+#ADDI ROOMS_WaterBanks "The bank of the River Bruinen"
+#ADDI ROOMS_WaterBanks "The banks of the Haja-Ajriqa"
+#ADDI ROOMS_WaterBanks "Southern bank of the Mirrormere"
+#ADDI ROOMS_WaterBanks "The Bay of Belfalas"
+#ADDI ROOMS_WaterBanks "The bank of Snowbourn"
+#ADDI ROOMS_WaterBanks "Cobas Haven"
+#ADDI ROOMS_WaterBanks "A riverbank"
+#ADDI ROOMS_WaterBanks "The Dry Lake"
+#ADDI ROOMS_WaterBanks "An oasis in the desert"
+#ADDI ROOMS_WaterBanks "by the banks of the Anduin"
+
+#VAR ROOMS_WaterBodies {} {} VAR
+#ADDI ROOMS_WaterBodies "Lake Evendim" //Eriador: The Hills of Evendim
+#ADDI ROOMS_WaterBodies "The Water" //Eriador: Shire / Brandywine River
+#ADDI ROOMS_WaterBodies "The Brandywine River" //Eriador: Shire
+#ADDI ROOMS_WaterBodies "The River Withywindle" //Eriador: Old Forest
+#ADDI ROOMS_WaterBodies "The River Hoarwell" //Eriador: Misty Mountains / Ancient Hollin
+#ADDI ROOMS_WaterBodies "The River Bruinen" //Eriador: Misty Mountains / Ancient Hollin
+#ADDI ROOMS_WaterBodies "The River Greyflood" //Eriador: Enedwaith
+#ADDI ROOMS_WaterBodies "The Swanfleet" //Eriador: Enedwaith / Ancient Hollin
+#ADDI ROOMS_WaterBodies "Sirannon, the Gate-stream" //Eriador: Moria / Swanfleet
+#ADDI ROOMS_WaterBodies "The River Adorn" //Eriador: Adornas
+#ADDI ROOMS_WaterBodies "The River Isen" //W.Rohan to Isengard
+#ADDI ROOMS_WaterBodies "River Isen" //Isengard
+#ADDI ROOMS_WaterBodies "The Great River Anduin" //North South through Arda
+#ADDI ROOMS_WaterBodies "The river Anduin" //North South through Arda
+#ADDI ROOMS_WaterBodies "Enchanted River" //Thranduils
+#ADDI ROOMS_WaterBodies "Forest River" //NE Rhov / Thranduils / Rhun
+#ADDI ROOMS_WaterBodies "The Celduin River" //Rhun
+#ADDI ROOMS_WaterBodies "The River Carnen" //Rhun
+#ADDI ROOMS_WaterBodies "Long Lake" //Laketown
+#ADDI ROOMS_WaterBodies "Nen Hithoel" //Central Arda
+#ADDI ROOMS_WaterBodies "Limlight River" //Rhovanion: Lothlorien / Fangorn Forest
+#ADDI ROOMS_WaterBodies "Gladden River" //Rhovanion: Lothlorien / NW Rhov
+#ADDI ROOMS_WaterBodies "Celebrant River" //Lothlorien
+#ADDI ROOMS_WaterBodies "River Isen" //Isengard
+#ADDI ROOMS_WaterBodies "Entwash" //Rohan
+#ADDI ROOMS_WaterBodies "Mouths of the Entwash" //Rohan / N.Gondor
+#ADDI ROOMS_WaterBodies "The River Snowbourn" //Rohan
+#ADDI ROOMS_WaterBodies "The Mouth of the Anduin" //Gondor
+#ADDI ROOMS_WaterBodies "The River Gilrain" //Gondor
+#ADDI ROOMS_WaterBodies "The River Erui" //Gondor
+#ADDI ROOMS_WaterBodies "The River Poros" //Gondor
+#ADDI ROOMS_WaterBodies "The River Serni" //Gondor
+#ADDI ROOMS_WaterBodies "The River Celos" //Gondor
+#ADDI ROOMS_WaterBodies "The River Sirith" //Gondor
+#ADDI ROOMS_WaterBodies "The River Morthond" //Gondor
+#ADDI ROOMS_WaterBodies "The River Ringlo" //Gondor
+#ADDI ROOMS_WaterBodies "The River Ciril" //Gondor
+#ADDI ROOMS_WaterBodies "The Moat" //Pelargir
+#ADDI ROOMS_WaterBodies "A channel" //Pelargir
+#ADDI ROOMS_WaterBodies "The Garth"
+#ADDI ROOMS_WaterBodies "The Mouth of River Harnen" //Near Harad
+#ADDI ROOMS_WaterBodies "The River Harnen"//Near Harad
+#ADDI ROOMS_WaterBodies "The Bay of Umbar" //Umbar
+#ADDI ROOMS_WaterBodies "The Belegear sea" //Umbar & Far Harad Junction
+#ADDI ROOMS_WaterBodies "The Belegaer sea" //Far Harad Western SHore
+#ADDI ROOMS_WaterBodies "The Crimson River" //FH: Eastern Forest
+#ADDI ROOMS_WaterBodies "The Inner Seas" //FH: Eastern Sea
+#ADDI ROOMS_WaterBodies "The Qatati" //Khemnahr
+#ADDI ROOMS_WaterBodies "The polluted waters of the Ajraqata river" //Akhbar Qata Marshes
+#ADDI ROOMS_WaterBodies "The wide Mojaboti river" //West of Akhbar Qata Marshes
+#ADDI ROOMS_WaterBodies "The roaring Korajritiqa river" //NW of Akhbar Qata Marshes
+#ADDI ROOMS_WaterBodies "Haja-Ajriqa river" //FH: Harad Desert
+#ADDI ROOMS_WaterBodies "A wide, slow river" //Bunabo Valley
+#ADDI ROOMS_WaterBodies "A waterfall"
+#ADDI ROOMS_WaterBodies "The top of a waterfall"
+#ADDI ROOMS_WaterBodies "At the base of a waterfall"
+
+#VAR ROOMS_Fountains {} {} VAR
+#ADDI ROOMS_Fountains "A fountain at the center of the town square"
+#ADDI ROOMS_Fountains "A public fountain"
+#ADDI ROOMS_Fountains "Street circle with fountain"
+#ADDI ROOMS_Fountains "A steamy bathhouse"
+
+#VAR ROOMS_Water {} {} VAR
+#FORALL @ROOMS_Fountains {#ADDI ROOMS_Water %i}
+#FORALL @ROOMS_WaterBanks {#ADDI ROOMS_Water %i}
+#FORALL @ROOMS_WaterBodies {#ADDI ROOMS_Water %i}
+#FORALL @ROOMS_Water {#ADDI ROOMS_Grid %i}
+#DELI ROOMS_Water ""
+#DELI ROOMS_Grid ""
+
+#CLASS 0
