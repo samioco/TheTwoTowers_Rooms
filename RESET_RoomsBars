@@ -1,0 +1,10 @@
+#CLASS 0
+#VAR Bars_WestArda {"BelBar|GreyBar|HobBar|HobBooth|BreeBar|ComBar|DruBar|AdBar"} {} VAR
+#VAR Bars_Arda {"FramBar|ThranBar|DaleBarEsgBar|EreBar|AlBar|IHBar|CaraBar|DGBar|EdoBar|HarBar|WayBar|MercBar|MT3Bar|MT4Bar|MT6Bar|PelBar|PelBar2|KadBar|OutBar|DHBar"} {} VAR
+#VAR Bars_FH {"TarBar|AsuBarTelBar|TavBar|TurBar|AzmBar|AzrakBar"} {} VAR
+#VAR Bars_Mordor {"MMBar|CUBar|BDBar|BDMess|BD2Mess|BDKit"} {} VAR
+#VAR Bars_Guilds {"UDBar|GVBar|THBar"} {} VAR
+
+RESET_RoomsLookup "Bars" "Bars_WestArda|Bars_Arda|Bars_FH|Bars_Mordor|Bars_Guilds"
+
+#CLASS 0
