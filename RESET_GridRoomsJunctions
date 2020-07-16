@@ -1,0 +1,182 @@
+#CLASS 0
+
+#VAR ROOMS_Bridges {} {} VAR
+#ADDI ROOMS_Bridges "The bridge to Bag End" //Hobbiton
+#ADDI ROOMS_Bridges "Stonebows Bridge" //Hobbiton / Bree
+#ADDI ROOMS_Bridges "Sarn Ford" //Greenway Bridge Eriador Shire/Lone-Lands
+#ADDI ROOMS_Bridges "A stone bridge" //Rivendell Bridge
+#ADDI ROOMS_Bridges "The Ford of Bruinen" //Rivendell Ford
+#ADDI ROOMS_Bridges "The Last Bridge" //Bree & Rivendell Bridge
+#ADDI ROOMS_Bridges "Broken bridge of Tharbad" //Bridge at Lone-Lands/Enedwaith
+
+#ADDI ROOMS_Bridges "A Bridge" //Thranduils
+#ADDI ROOMS_Bridges "A bridge" //Mordor Cliffs
+#ADDI ROOMS_Bridges "The Bridge" //Mirkwood Bridge
+#ADDI ROOMS_Bridges "The Old Ford" //Ford at: Hollin/Enedwaith & Rhosgobel
+#ADDI ROOMS_Bridges "The Ford of Framsburg" //Framsburg
+#ADDI ROOMS_Bridges "A ford over the Gladden River" //Lothlorien / NW Rhovanion
+#ADDI ROOMS_Bridges "North Undeep" //Mirkwood / Rohan
+#ADDI ROOMS_Bridges "South Undeep" //Mirkwood / Rohan
+#ADDI ROOMS_Bridges "Entwade" //Rohan East Emnet / West Emnet
+#ADDI ROOMS_Bridges "Isen Ford" //Isengard & Rohan
+#ADDI ROOMS_Bridges "An old bridge" //Fenmarch / Anorien
+#ADDI ROOMS_Bridges "A Natural Ford" //Gondor Fords
+#ADDI ROOMS_Bridges "A natural ford over the River Ringlo" // Ethring
+#ADDI ROOMS_Bridges "A Wooden Bridge" //Pelargir Bridge
+#ADDI ROOMS_Bridges "A Garth bridge" //Pelargir Bridge
+#ADDI ROOMS_Bridges "The Great Bridge gate" //Pelargir
+#ADDI ROOMS_Bridges "The King's Bridge" //Pelargir
+#ADDI ROOMS_Bridges "A bridge over the Anduin" //Pelargir & Harondor
+#ADDI ROOMS_Bridges "A large wooden dock" //Kadar Docks
+#ADDI ROOMS_Bridges "A large bridge" //Kadar
+#ADDI ROOMS_Bridges "A wooden bridge" //Dell's Farm
+#ADDI ROOMS_Bridges "A ford on the Carnen River" //Alzhak Bridge
+#ADDI ROOMS_Bridges "A bridge leading to Caras Galadhon" // Caras Galadhon Bridge
+#ADDI ROOMS_Bridges "The bridge to Caras Galadhon" // Caras Galadhon Bridge
+#ADDI ROOMS_Bridges "A bridge spanning a deep chasm" // Dol Guldur
+#ADDI ROOMS_Bridges "A bridge of Osgiliath" //Osgiliath
+#ADDI ROOMS_Bridges "Bridge of Osgiliath" //Osgiliath
+#ADDI ROOMS_Bridges "A bridge over the Morgulduin" //South Rhov & Harondor: MorgSP
+#ADDI ROOMS_Bridges "The bridge over the Morgulduin" //South Rhov & Harondor: CUStairs
+#ADDI ROOMS_Bridges "A bridge over the River Harnen" //Morgul Road
+#ADDI ROOMS_Bridges "Before the keep's drawbridge" //Corsair Keep
+#ADDI ROOMS_Bridges "A wooden drawbridge" //Corsair Keep
+#ADDI ROOMS_Bridges "A massive bridge spanning a chasm" // BD Bridge
+#ADDI ROOMS_Bridges "The Haja-Ajriqa Bridge" //FH: East Harad Desert / Asubuhi plains
+#ADDI ROOMS_Bridges "The Qatati bridge" //FH: Khemnahr Bridge
+#ADDI ROOMS_Bridges "The Sea Bridge" //FH: Western Forest & Grey Mountains
+#ADDI ROOMS_Bridges "The Mojaboti Bridge" //FH: Between The Akhbar Qata Marshes & Azmaroth
+#ADDI ROOMS_Bridges "The Bunabo Bridge" //FH: Bunabo Valley
+
+#ADDI ROOMS_Bridges "A bridge over the Morgulduin on The River Morgulduin"
+#ADDI ROOMS_Bridges "A bridge over the River Harnen on The River Harnen"
+#ADDI ROOMS_Bridges "The Qatati bridge on The Qatati"
+#ADDI ROOMS_Bridges "The Haja-Ajriqa Bridge on the Haja-Ajriqa river"
+#ADDI ROOMS_Bridges "The Mojaboti Bridge on The wide Mojaboti river"
+#ADDI ROOMS_Bridges "The Sea Bridge on The wide Mojaboti river"
+#ADDI ROOMS_Bridges "The Bunabo Bridge on A wide, slow river"
+#ADDI ROOMS_Bridges "Isen Ford on River Isen"
+#ADDI ROOMS_Bridges "Stonebows Bridge on The Brandywine River"
+#ADDI ROOMS_Bridges "Broken bridge of Tharbad on The River Greyflood"
+#ADDI ROOMS_Bridges "The Ford of Bruinen on The River Bruinen"
+#ADDI ROOMS_Bridges "A stone bridge on The River Bruinen"
+#ADDI ROOMS_Bridges "The Last Bridge on The River Hoarwell"
+#ADDI ROOMS_Bridges "The Old Ford on Sirannon, the Gate-stream"
+#ADDI ROOMS_Bridges "Sarn Ford on The Brandywine River"
+#DELI ROOMS_Bridges ""
+
+#VAR ROOMS_Junctions {} {} VAR
+#ADDI ROOMS_Junctions "A square with a statue" //Grey Havens
+#ADDI ROOMS_Junctions "Crossroads" // Thran / Caras
+#ADDI ROOMS_Junctions "A crossroads"
+#ADDI ROOMS_Junctions "The Bree town center" //Bree
+#ADDI ROOMS_Junctions "Waymeet" //Waymeet
+#ADDI ROOMS_Junctions "Greenway Deadend" //Deadman's Dike
+#ADDI ROOMS_Junctions "The Entrance to High Pass" //High Pass
+#ADDI ROOMS_Junctions "A meeting-place of roads" // Caras Caladhon
+#ADDI ROOMS_Junctions "A Waypoint" //Waypoint
+#ADDI ROOMS_Junctions "Outside the Rammas Echor" //Pelennor / Anorien
+#ADDI ROOMS_Junctions "Rammas Causeway" //Pelennor / Osgiliath
+#ADDI ROOMS_Junctions "Market square" //Minas Tirith
+#ADDI ROOMS_Junctions "The high road intersects a winding road" //Linhir
+#ADDI ROOMS_Junctions "The town square meets a wide street" //Linhir
+#ADDI ROOMS_Junctions "In the town square of Linhir" //Linhir
+#ADDI ROOMS_Junctions "The center of East Market" //Pelargir
+#ADDI ROOMS_Junctions "Bridge Road and Willow Grove crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Willow Grove and Bridge Road crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Willow Grove and Stately Elm Street crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Stately Elm Street and Willow Grove crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Bridge Road and Bridge Road Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Bridge Road Wharf and Bridge Road crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Port Street, Umbar Wharf and Bridge Road Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Port Street, Bridge Road Wharf and Umbar Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Umbar Wharf, Port Street and Bridge Road Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Umbar Wharf, Bridge Road Wharf and Port Street crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Bridge Road Wharf, Umbar Wharf and Port Street crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Bridge Road Wharf, Port Street and Umbar Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Gutter's Trail, Widow's Lane and Charity Row crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Gutter's Trail, Charity Row and Widow's Lane crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Charity Row, Gutter's Trail and Widow's Lane crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Charity Row, Widow's Lane and Gutter's Trail crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Widow's Lane, Charity Row and Gutter's Trail crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Widow's Lane, Gutter's Trail and Charity Row crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Poortown Wharf and Barfalas Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Barfalas Wharf and Poortown Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Gutter's Trail and Thieves' Row crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Thieves' Row and Gutter's Trail crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Plague Alley and Thieves' Row crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Thieves' Row and Plague Alley crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Plague Alley and Widow's Lane crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Widow's Lane and Plague Alley crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Poortown Wharf and Thieves' Row crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Thieves' Row and Poortown Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Barfalas Wharf and Widow's Lane crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Widow's Lane and Barfalas Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Newport Wharf and Sunnyvale Crescent crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Sunnyvale Crescent and Newport Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Red Blossom Court and Sunnyvale Crescent crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Sunnyvale Crescent and Red Blossom Court crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Wild Rose Blossom Lane and Newport Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Newport Wharf and Wild Rose Blossom Lane crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Noble's Promenade and Belfalas Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Belfalas Wharf and Noble's Promenade crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Belfalas Wharf and Scholar's Crescent crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Scholar's Crescent and Belfalas Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Osgiliath Avenue and Scholar's Crescent crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Scholar's Crescent and Osgiliath Avenue crossroads" //Pelargir
+#ADDI ROOMS_Junctions "King's Wharf and Royal Thoroughfare crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Royal Thoroughfare and King's Wharf crossroads" //Pelargir
+#ADDI ROOMS_Junctions "Royal Thoroughfare and King's Progression crossroads" //Pelargir
+#ADDI ROOMS_Junctions "King's Progression and Royal Thoroughfare crossroads" //Pelargir
+#ADDI ROOMS_Junctions "The Royal Plaza" //Pelargir
+#ADDI ROOMS_Junctions "The centre of the marshalling yard" //Dol Guldur Center
+#ADDI ROOMS_Junctions "The Isenmouthe" //Isenmouthe
+#ADDI ROOMS_Junctions "A four-way junction" //Fourway
+#ADDI ROOMS_Junctions "A crossroads in the Morgul Road" //Morgul Road
+#ADDI ROOMS_Junctions "A checkpoint" //Mordor Cliffs Checkpoint
+#ADDI ROOMS_Junctions "The level two guardpost" //BD2
+#ADDI ROOMS_Junctions "The level three guardpost" //BD3
+#ADDI ROOMS_Junctions "A checkpoint near the River Harnen" //Harondor & Near Harad
+#ADDI ROOMS_Junctions "The North Waymarker" //East of Khemnahr
+#ADDI ROOMS_Junctions "A small open area where three roads meet" //FH: Junction
+#ADDI ROOMS_Junctions "A broken rope bridge" //FH: End of A large road, South of Khemnahr
+#ADDI ROOMS_Junctions "Redhorn Pass" //Redhorn Pass
+#ADDI ROOMS_Junctions "The Dimrill stair" //Redhorn Pass
+#ADDI ROOMS_Junctions "The northern pass" //Qata Plains & Harad Desert
+#ADDI ROOMS_Junctions "The eastern pass" //Qata Plains & Asubuhi
+#ADDI ROOMS_Junctions "The Southern pass" //Qata Plains & Bunabo Valley
+#ADDI ROOMS_Junctions "A mountain pass" //High Pass / FH: Grey Mountains
+#ADDI ROOMS_Junctions "A washed out bridge" //FH: End of The Valley Road, South of Bunabo Valley
+#ADDI ROOMS_Junctions "A faint path off the road" //FH: TaniVillage
+#ADDI ROOMS_Junctions "A junction of paths" //SW of Khemnahr: The Akhbar Qata Marshes / Western Forest / Plains
+#ADDI ROOMS_Junctions "The entrance to a pass through the mountain" //FH: Southern Grey Mountains Pass
+#ADDI ROOMS_Junctions "A pass through the mountains" //FH: Southern Grey Mountains Pass
+#ADDI ROOMS_Junctions "The top of the pass through the mountains" //FH: Southern Grey Mountains Pass
+#ADDI ROOMS_Junctions "The mouth of a mountain pass" //FH: Southern Grey Mountains Pass
+#ADDI ROOMS_Junctions "At the entrance to a pass through the mountain" //FH: Grey Mountain Snowy Pass
+#ADDI ROOMS_Junctions "A pass on the mountain" //FH: Grey Mountain Snowy Pass
+#ADDI ROOMS_Junctions "The eastern road meets a dock" //FH: Eastern road end
+#ADDI ROOMS_Junctions "A path around the Mirrormere" //Dimrill Valley
+#ADDI ROOMS_Junctions "A landslide" //Near Harad: End of A Path to Khand
+#ADDI ROOMS_Junctions "Wellinghall"
+#ADDI ROOMS_Junctions "A crossroads in the labyrinth" // Dunnish Temple
+#ADDI ROOMS_Junctions "A sandy clearing" //Dharan Sars
+#ADDI ROOMS_Junctions "The center of a large easterling camp" //Baraddur easterling camp
+#ADDI ROOMS_Junctions "A quiet intersection" //Baraddur Orc camp
+#ADDI ROOMS_Junctions "At the center of the camp" //Baraddur Orc camp
+#ADDI ROOMS_Junctions "Sauron's Road approaches a chasm"
+#ADDI ROOMS_Junctions "A meeting of paths"
+#ADDI ROOMS_Junctions "A large open room" //Prod
+#ADDI ROOMS_Junctions "An intersection"
+#ADDI ROOMS_Junctions "A fork"
+#ADDI ROOMS_Junctions "A cave opening"
+#ADDI ROOMS_Junctions "A broad ledge" //Erebor Thrain's Gate
+
+#DELI ROOMS_Junctions ""
+#FORALL @ROOMS_Bridges {#ADDI ROOMS_Junctions %i}
+#FORALL @ROOMS_Signposts {#ADDI ROOMS_Junctions %i}
+#FORALL @ROOMS_Junctions {#ADDI ROOMS_Grid %i}
+
+
+
+#CLASS 0
