@@ -1,0 +1,213 @@
+#CLASS 0
+#VAR ROOMS_Roads {} {} VAR
+#ADDI ROOMS_Roads "Path"
+#ADDI ROOMS_Roads "A path"
+#ADDI ROOMS_Roads "A trail"
+#ADDI ROOMS_Roads "Trail"
+#ADDI ROOMS_Roads "End trail"
+#ADDI ROOMS_Roads "Alleyway"
+#ADDI ROOMS_Roads "A dusty path"
+#ADDI ROOMS_Roads "A dead end"
+#ADDI ROOMS_Roads "A dirt path"
+#ADDI ROOMS_Roads "A narrow path"
+#ADDI ROOMS_Roads "A tunnel"
+#ADDI ROOMS_Roads "A wide tunnel"
+#ADDI ROOMS_Roads "A large tunnel"
+#ADDI ROOMS_Roads "A very dark tunnel"
+#ADDI ROOMS_Roads "The main road"
+
+//West Arda
+#ADDI ROOMS_Roads "An ancient dwarven path" //Eriador road to Belegost
+#ADDI ROOMS_Roads "The Greenway" //Shire to Tharbad: old name
+#ADDI ROOMS_Roads "A branch of the Greenway" //Shire to Tharbad: new name
+#ADDI ROOMS_Roads "The northern Greenway" //Bree to Deadman's Dike
+#ADDI ROOMS_Roads "The Southern Greenway" //Tharbad Bridge to Isengard (new name)
+#ADDI ROOMS_Roads "The path to Weathertop" //Weathertop
+#ADDI ROOMS_Roads "The Old South Road" //Enedwaith: Tharbad to Isengard (old name)
+#ADDI ROOMS_Roads "The Great East Road" //Eriador: White Towers to Rivendell
+#ADDI ROOMS_Roads "The Adornas road" //W. Rohan: Road to Adornas
+#ADDI ROOMS_Roads "The ancient Gate-path" //Eregion: Moria to Ruins of Ost-in-Edhil
+
+//Rhun
+#ADDI ROOMS_Roads "A ruined road" //Rhun
+#ADDI ROOMS_Roads "A road through the Iron Hills" //Rhun: Iron Hills
+#ADDI ROOMS_Roads "The Great Dwarven Road" //Rhun: Road to Iron Hills City
+#ADDI ROOMS_Roads "An ancient road" //Rhun: Road passing Alzhak Urk (new name)
+#ADDI ROOMS_Roads "A barely visible trail" //Rhun: Road passing Alzhak Urk (old name)
+
+//Rhovanion
+#ADDI ROOMS_Roads "A wide path" //DM & Tarzhayan
+#ADDI ROOMS_Roads "Worn path" //Dead Marshes
+#ADDI ROOMS_Roads "A narrow, winding path" //Path to Minas Morgul
+#ADDI ROOMS_Roads "A path through the woods" //Osgiliath & Dimrill Valley
+#ADDI ROOMS_Roads "A path up the rocky slopes of a mountain" //DolGuldur
+#ADDI ROOMS_Roads "The Mirkwood path" //Forest Gate to Thranduils
+#ADDI ROOMS_Roads "The old forest road" //Misty Mountains High Pass to all east of Rhosgobel
+#ADDI ROOMS_Roads "The Southward Road" //Morgulduin Bridge to Mordor Gate
+
+//Gondor Roads
+#ADDI ROOMS_Roads "The Great West Road" //Isengard to Minas Tirith
+#ADDI ROOMS_Roads "The South Road" //Minas Tirith to Pelargir
+#ADDI ROOMS_Roads "The Lebennin Road" //Gondor: Pelargir to Ethring
+#ADDI ROOMS_Roads "The Harlond Path" //Gondor: Pelennor Fields
+#ADDI ROOMS_Roads "The Lamedon Road" //Gondor: Ethring to White Mountains
+#ADDI ROOMS_Roads "A road passing from Harlond to Pelennor" //Harlond
+#ADDI ROOMS_Roads "Main road" //Lendin
+
+//Mordor Roads
+#ADDI ROOMS_Roads "The road through Udun"
+#ADDI ROOMS_Roads "Orc path"
+#ADDI ROOMS_Roads "The road to Mordor"
+#ADDI ROOMS_Roads "Sauron's Road"
+#ADDI ROOMS_Roads "Morgul Pass"
+#ADDI ROOMS_Roads "The Morgul Road"
+#ADDI ROOMS_Roads "A crossroads in the Morgul Road"
+#ADDI ROOMS_Roads "A road around a cliff"
+#ADDI ROOMS_Roads "The path to Cirith Ungol"
+#ADDI ROOMS_Roads "A rocky trail" //PBS Camp
+#ADDI ROOMS_Roads "A barren trail" //PBS Camp
+#ADDI ROOMS_Roads "A dry, winding path" //PBS Camp
+
+//Umbar Roads
+#ADDI ROOMS_Roads "The Corsair highway"
+#ADDI ROOMS_Roads "A path crossing the Umbar cliffs"
+#ADDI ROOMS_Roads "A steep path along the cliffs of Umbar"
+
+//Harad Roads
+#ADDI ROOMS_Roads "The Harad Road" //Morgulduin Bridge / Pelargir / Outpost
+#ADDI ROOMS_Roads "A path to Khand" //Harad Road to Eastern Near Harad
+#ADDI ROOMS_Roads "The Desert Route" //NH: Harad Desert & FH: Harad Desert
+#ADDI ROOMS_Roads "The desert route" //NH: Harad Desert & FH: Harad Desert
+
+//Far Harad Roads
+#ADDI ROOMS_Roads "A dirt road" //North Way Marker / Asubuhi
+#ADDI ROOMS_Roads "A broad, wooden dock" //Eastern shore docks
+#ADDI ROOMS_Roads "On a boardwalk" //Road through Akhbar Qata Marshes
+#ADDI ROOMS_Roads "A large road" //The Haja-Ajriqa Bridge / north/South / Western Forest
+#ADDI ROOMS_Roads "The Valley Road" //North Way Marker / Bunabo Valley
+#ADDI ROOMS_Roads "The eastern road" //FH: Eastern Forest road
+#ADDI ROOMS_Roads "A wide road" //The Mojaboti Bridge to Azmaroth East
+#ADDI ROOMS_Roads "The coastal road" //FH: West Coast Azrakadar / Azrazayan
+#ADDI ROOMS_Roads "The sea road" //FH: Sea Bridge / Turseg Plains / Azrakadar
+
+#VAR ROOMS_CityRoads {} {} VAR
+#ADDI ROOMS_CityRoads "A paved street" //Grey Havens
+#ADDI ROOMS_CityRoads "A leafy avenue" //Grey Havens
+#ADDI ROOMS_CityRoads "Street end" //Grey Havens
+#ADDI ROOMS_CityRoads "The road to Bag End" //Hobbiton
+#ADDI ROOMS_CityRoads "Hill Lane" //Hobbiton
+#ADDI ROOMS_CityRoads "The road to Bywater" //Bywater
+#ADDI ROOMS_CityRoads "Bywater's main street" //Bywater
+#ADDI ROOMS_CityRoads "The western slope of Bree" //Bree
+#ADDI ROOMS_CityRoads "North main street" //Bree
+#ADDI ROOMS_CityRoads "East main street" //Bree
+#ADDI ROOMS_CityRoads "South main street" //Bree
+#ADDI ROOMS_CityRoads "Staddle's main street" //Staddle
+#ADDI ROOMS_CityRoads "A cobblestone road" //Framsburg
+#ADDI ROOMS_CityRoads "A filthy cobblestone road" //Framsburg
+#ADDI ROOMS_CityRoads "The end of the road" //Framsburg
+#ADDI ROOMS_CityRoads "The main street" //Edoras
+#ADDI ROOMS_CityRoads "A side street" //Edoras
+#ADDI ROOMS_CityRoads "Street" //Minas Tirith
+#ADDI ROOMS_CityRoads "A city street" //Minas Tirith
+#ADDI ROOMS_CityRoads "A street" //Minas Tirith
+#ADDI ROOMS_CityRoads "The streets of Minas Tirith" //Minas Tirith
+#ADDI ROOMS_CityRoads "A dark tunnel through the embrasure" //Minas Tirith
+#ADDI ROOMS_CityRoads "An outcropping of rock" //Minas Tirith
+#ADDI ROOMS_CityRoads "An arched tunnel" //Minas Tirith
+#ADDI ROOMS_CityRoads "King's Gate Way" //Pelargir
+#ADDI ROOMS_CityRoads "The east market" //Pelargir
+#ADDI ROOMS_CityRoads "Bridge Road" //Pelargir
+#ADDI ROOMS_CityRoads "Bridge Road Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "Willow Grove" //Pelargir
+#ADDI ROOMS_CityRoads "Stately Elm Street" //Pelargir
+#ADDI ROOMS_CityRoads "Circus Street" //Pelargir
+#ADDI ROOMS_CityRoads "Charity Row" //Pelargir
+#ADDI ROOMS_CityRoads "Port Street" //Pelargir
+#ADDI ROOMS_CityRoads "Gutter's Trail" //Pelargir
+#ADDI ROOMS_CityRoads "Thieves' Row" //Pelargir
+#ADDI ROOMS_CityRoads "Widow's Lane" //Pelargir
+#ADDI ROOMS_CityRoads "Plague Alley" //Pelargir
+#ADDI ROOMS_CityRoads "Poortown Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "Barfalas Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "Umbar Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "Newport Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "King's Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "Royal Thoroughfare" //Pelargir
+#ADDI ROOMS_CityRoads "King's Progression" //Pelargir
+#ADDI ROOMS_CityRoads "Belfalas Wharf" //Pelargir
+#ADDI ROOMS_CityRoads "Scholar's Crescent" //Pelargir
+#ADDI ROOMS_CityRoads "Osgiliath Avenue" //Pelargir
+#ADDI ROOMS_CityRoads "Noble's Promenade" //Pelargir
+#ADDI ROOMS_CityRoads "Wild Rose Blossom Lane" //Pelargir
+#ADDI ROOMS_CityRoads "Red Blossom Court" //Pelargir
+#ADDI ROOMS_CityRoads "Sunnyvale Crescent" //Pelargir
+#ADDI ROOMS_CityRoads "A road in the refugee camp" //Linhir
+#ADDI ROOMS_CityRoads "A crossroad in the refugee camp" //Linhir
+#ADDI ROOMS_CityRoads "The river road of Linhir" //Linhir
+#ADDI ROOMS_CityRoads "The high road of Linhir" //Linhir
+#ADDI ROOMS_CityRoads "A winding road in the city of Linhir" //Linhir
+#ADDI ROOMS_CityRoads "A wide street runs between the docks and town square" //Linhir
+#ADDI ROOMS_CityRoads "A winding path to the west of the Lamedon Road" //Ethring
+#ADDI ROOMS_CityRoads "A meandering path southeast of the Lamedon Road" //Ethring
+#ADDI ROOMS_CityRoads "To the south of the ford of Ethring" //Ethring
+#ADDI ROOMS_CityRoads "To the north of the ford of Ethring" //Ethring
+#ADDI ROOMS_CityRoads "A winding path to the northeast of the Lamedon Road" //Ethring
+#ADDI ROOMS_CityRoads "A winding path to the northwest of the Lamedon Road" //Ethring
+#ADDI ROOMS_CityRoads "A stone well at the end of the path" //Ethring
+#ADDI ROOMS_CityRoads "A broad path through the forest" //DolGuldur
+#ADDI ROOMS_CityRoads "A dirty path through town" //Galenwath
+#ADDI ROOMS_CityRoads "A wide dusty path" //Galenwath
+#ADDI ROOMS_CityRoads "The terrace path" //Rivendell
+#ADDI ROOMS_CityRoads "A rocky path" //Rivendell
+#ADDI ROOMS_CityRoads "A rocky path up a steep hill" //Rivendell
+#ADDI ROOMS_CityRoads "A well-used road" //Druwaur
+#ADDI ROOMS_CityRoads "A trail" //Erebor Orc Trail
+#ADDI ROOMS_CityRoads "A paved road" //Erebor
+#ADDI ROOMS_CityRoads "A stone paved road" //Erebor
+#ADDI ROOMS_CityRoads "A windy path" //Erebor
+#ADDI ROOMS_CityRoads "North Street" //Osgiliath
+#ADDI ROOMS_CityRoads "A road in Osgiliath" //Osgiliath
+#ADDI ROOMS_CityRoads "A path through Osgiliath" //Osgiliath
+#ADDI ROOMS_CityRoads "The road through Osgiliath" //Osgiliath
+#ADDI ROOMS_CityRoads "The road to Osgiliath" //Osgiliath
+#ADDI ROOMS_CityRoads "On the west road near the dome" //Osgiliath
+#ADDI ROOMS_CityRoads "On the west road" //Osgiliath
+#ADDI ROOMS_CityRoads "Inside the city" //Osgiliath
+#ADDI ROOMS_CityRoads "A narrow, pebble strewn trail" //Osgiliath
+#ADDI ROOMS_CityRoads "A narrow, pebble-strewn trail" //Osgiliath
+#ADDI ROOMS_CityRoads "An end to the path" //Osgiliath
+#ADDI ROOMS_CityRoads "A large stone road" //Kadar
+#ADDI ROOMS_CityRoads "A small dirt road" //Kadar
+#ADDI ROOMS_CityRoads "A small road along the river" //Kadar
+#ADDI ROOMS_CityRoads "The High Street" //Corsair Keep
+#ADDI ROOMS_CityRoads "A busy intersection" //Corsair Keep
+#ADDI ROOMS_CityRoads "An impressive stone archway" //Corsair Keep
+#ADDI ROOMS_CityRoads "The Battle Street" //Corsair Keep
+#ADDI ROOMS_CityRoads "A sandy path" //Dharan Sars
+#ADDI ROOMS_CityRoads "A road inside the stronghold" //Tarzhayan
+#ADDI ROOMS_CityRoads "A dirt path through the camp" //Asubuhi
+#ADDI ROOMS_CityRoads "A long road leading through the town" //Azrakadar
+#ADDI ROOMS_CityRoads "A broad, cobbled walkway" //Khemnahr
+#ADDI ROOMS_CityRoads "A narrow, cobbled road" //Khemnahr
+#ADDI ROOMS_CityRoads "A well-worn path" //BD Courtyard
+#ADDI ROOMS_CityRoads "A street on the first tier" //Minas Morgul
+#ADDI ROOMS_CityRoads "A street on the second tier" //Minas Morgul
+#ADDI ROOMS_CityRoads "A long darkened tunnel" //Minas Morgul
+
+//Moria Roads
+#ADDI ROOMS_CityRoads "A long road"
+#ADDI ROOMS_CityRoads "An aged pathway"
+#ADDI ROOMS_CityRoads "The Path of Wealth"
+#ADDI ROOMS_CityRoads "The Road of Prosperity"
+#ADDI ROOMS_CityRoads "A dark road"
+#ADDI ROOMS_CityRoads "A narrow tunnel"
+#ADDI ROOMS_CityRoads "A small tunnel"
+#ADDI ROOMS_CityRoads "A small tunnel ends"
+#ADDI ROOMS_CityRoads "Way of Defense"
+
+#FORALL @ROOMS_CityRoads {#ADDI ROOMS_Roads %i}
+#FORALL @ROOMS_Roads {#ADDI ROOMS_Grid %i}
+
+
+#CLASS 0
