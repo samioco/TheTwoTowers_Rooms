@@ -1,0 +1,45 @@
+#CLASS 0
+#VAR ROOMS_Barren {} {} VAR
+
+#VAR ROOMS_Swamps {} {} VAR
+#ADDI ROOMS_Swamps "The western swamp"
+#ADDI ROOMS_Swamps "Wetwang swamp"
+#ADDI ROOMS_Swamps "The Gladden Fields"
+#FORALL @ROOMS_Swamps {#ADDI ROOMS_Barren %i}
+
+#VAR ROOMS_DarkSwamps {} {} VAR
+#ADDI ROOMS_DarkSwamps "The Midgewater Marshes"
+#ADDI ROOMS_DarkSwamps "Midgewater Swamp"
+#ADDI ROOMS_DarkSwamps "The Akhbar Qata Marshes"
+#ADDI ROOMS_DarkSwamps "Udun"
+#ADDI ROOMS_DarkSwamps "A sticky marsh"
+#FORALL @ROOMS_DarkSwamps {#ADDI ROOMS_Barren %i}
+
+#VAR ROOMS_Deserts {} {} VAR
+#ADDI ROOMS_Deserts "The Harad Desert"
+#ADDI ROOMS_Deserts "Cirith Gorgor"
+#ADDI ROOMS_Deserts "The Gorgoroth"
+#ADDI ROOMS_Deserts "A desolate wasteland"
+#FORALL @ROOMS_Deserts {#ADDI ROOMS_Barren %i}
+
+#VAR ROOMS_BarrenLands {} {} VAR
+#ADDI ROOMS_BarrenLands "The Weather Hills"
+#ADDI ROOMS_BarrenLands "The Ettenmoors"
+#ADDI ROOMS_BarrenLands "The Farlands"
+#ADDI ROOMS_BarrenLands "Some sandy plains"
+#ADDI ROOMS_BarrenLands "The Wasteland"
+#FORALL @ROOMS_BarrenLands {#ADDI ROOMS_Barren %i}
+
+#VAR ROOMS_FireyLands {} {} VAR
+#ADDI ROOMS_FireyLands "The Iron Hills"
+#ADDI ROOMS_FireyLands "A blasted landscape at the base of a volcano"
+#ADDI ROOMS_FireyLands "A deep trench, filled with smoke and ruin"
+#ADDI ROOMS_FireyLands "A trench full of flames and smoke"
+#ADDI ROOMS_FireyLands "Ash flows"
+#ADDI ROOMS_FireyLands "The Ash Mountains"
+#ADDI ROOMS_FireyLands "Foot of the Ered Lithui"
+#FORALL @ROOMS_FireyLands {#ADDI ROOMS_Barren %i}
+
+#FORALL @ROOMS_Barren {#ADDI ROOMS_Grid %i}
+
+#CLASS 0
