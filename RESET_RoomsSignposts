@@ -1,0 +1,50 @@
+#CLASS 0
+#VAR Signposts_WestArda {} {} VAR
+#ADDI Signposts_WestArda "BelSP"
+#ADDI Signposts_WestArda "GreySP"
+#ADDI Signposts_WestArda "HobSP"
+#ADDI Signposts_WestArda "Bree"
+#ADDI Signposts_WestArda "RivSP"
+#ADDI Signposts_WestArda "DruSP"
+#ADDI Signposts_WestArda "AdSP"
+
+#VAR Signposts_Arda {} {} VAR
+#ADDI Signposts_Arda  "Rhos"
+#ADDI Signposts_Arda  "Thran"
+#ADDI Signposts_Arda  "DaleSP"
+#ADDI Signposts_Arda  "EsgSP"
+#ADDI Signposts_Arda  "EreSP"
+#ADDI Signposts_Arda  "ALSP"
+#ADDI Signposts_Arda  "IHSP"
+#ADDI Signposts_Arda  "Loth"
+#ADDI Signposts_Arda  "DGSP"
+#ADDI Signposts_Arda  "EdoSP"
+#ADDI Signposts_Arda  "MercSP"
+#ADDI Signposts_Arda  "WOSG"
+#ADDI Signposts_Arda  "Morg"
+#ADDI Signposts_Arda  "MTSP"
+#ADDI Signposts_Arda  "PelSP"
+#ADDI Signposts_Arda  "LinSP"
+#ADDI Signposts_Arda  "DASP"
+#ADDI Signposts_Arda  "NKAD"
+#ADDI Signposts_Arda  "SKAD"
+#ADDI Signposts_Arda  "NOUT"
+#ADDI Signposts_Arda  "SOUT"
+#ADDI Signposts_Arda  "DHSP"
+#ADDI Signposts_Arda  "CorSP"
+
+#VAR Signposts_FH {} {} VAR
+#ADDI Signposts_FH "TarSP"
+#ADDI Signposts_FH "KHSP"
+#ADDI Signposts_FH "AsuSP"
+#ADDI Signposts_FH "TelSP"
+#ADDI Signposts_FH "TavSP"
+#ADDI Signposts_FH "TurSP"
+#ADDI Signposts_FH "AzmSP"
+#ADDI Signposts_FH "AzmWSP"
+#ADDI Signposts_FH "AzrakSP"
+#ADDI Signposts_FH "AzrazSP"
+
+RESET_Rooms_Lookup "Signposts" "Signposts_WestArda|Signposts_Arda|Signposts_FH"
+
+#CLASS 0
