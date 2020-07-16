@@ -1,0 +1,66 @@
+#CLASS 0
+#VAR Shops_WestArda {"BelShop|HobShop|BreeShop|RivShop|AdShop"} {} VAR
+#VAR Shops_Arda {"ThranShop|DGShop|EdoShop|PelArm|PelSmith|KadShop|GalShop|OutShop|DHShop"} {} VAR
+#VAR Shops_Mordor {"MMShop|MMSmith|CUShop|CarShop|BDShop|BDSmith|BDArm"} {} VAR
+#VAR Shops_FH {"TarShop|KHShop|AsuShop|TelShop|TavShop|TurShop|AzmShop|AzrazShop|AzrakShop"} {} VAR
+#VAR Shops_Misc {"BuckBoat|PelBoat|KadBoat|KHBoat|Laryn|BreeSmith|Arguindel|ArchetShop|ComShop|EdoWep|DunShop|DGShop|DGArch|CaraShop|CaraSmith|CaraArm|CaraBakery|MoriaShop|DAShop|LinShop|LenShop|Resa|PelFish|PelCandle|KadAuc|KadSmith|MTFood|MTFruit|MTCandle|MT3Shop|MT4Shop|MT6Shop|MTArm|MTSmith|Humgar|HarShop|DHGem|KHSmith|TarSmith|TarAuc|PeltShop|OsgShop|OsgWag|UDShop|WayWag|GVShop|MercShop|MercBow|Alexa|LothShop|IHShop|IHSmith|EreSmith|EreShop|EsgShop|EsgArm|EsgSmith|EsgFish|DaleShop|ALShop|FramShop|AdWag|MDShop|MDSmith|BDBaker|GreyShop|BelSmith"} {} VAR
+
+RESET_Rooms_Lookup "Shops" "Shops_WestArda|Shops_Arda|Shops_Mordor|Shops_FH|Shops_Misc"
+
+#VAR ROOMS_Shops {} {} VAR
+#VAR ROOMS_Shops_ID {} {} VAR
+#VAR ROOMS_Shops_LookUpID {} {} VAR
+
+#FORALL "Shops_WestArda|Shops_Arda|Shops_Mordor|Shops_FH" {
+  #FORALL @{%concat("ROOMS_",%i)} {#ADDI ROOMS_Shops %j}
+  #FORALL @{%concat("ROOMS_",%i,"_ID")} {#ADDI ROOMS_Shops_ID %j}
+  #FORALL @{%concat("ROOMS_",%i,"_LookUpID")} {#ADDI ROOMS_Shops_LookUpID %j}
+}
+#VAR ROOMS_Shops_All {} {} VAR
+#FORALL @ROOMS_Shops {#ADDI ROOMS_Shops_All %i}
+#FORALL @ROOMS_Shops_Misc {#ADDI ROOMS_Shops_All %i}
+
+#VAR ROOMS_Shops_Arda_ER {"DGShop|KadShop"} {} VAR
+#VAR ROOMS_Shops_Arda_FR {"ThranShop|EdoShop|PelSmith"} {} VAR
+
+#VAR ROOMS_Shops_ER {} {} VAR
+#FORALL @ROOMS_Shops_FH_ID {#ADDI ROOMS_Shops_ER %i}
+#FORALL @ROOMS_Shops_Arda_ER {#ADDI ROOMS_Shops_ER %i}
+
+#VAR ROOMS_Shops_FR {} {} VAR
+#FORALL @ROOMS_Shops_WestArda_ID {#ADDI ROOMS_Shops_FR %i}
+#FORALL @ROOMS_Shops_Arda_FR {#ADDI ROOMS_Shops_FR %i}
+
+#VAR Shopkeepers {} {} VAR
+#ADDI Shopkeepers "Carilan"
+#ADDI Shopkeepers "Brenen" //Thranshop
+#ADDI Shopkeepers "Alexa"
+#ADDI Shopkeepers "Eamon"
+#ADDI Shopkeepers "Gimburz" //osgwag
+#ADDI Shopkeepers "Aloysius" //waywag
+#ADDI Shopkeepers "Ghayth"
+#ADDI Shopkeepers "Zaben"
+#ADDI Shopkeepers "Yusuf'tani"
+#ADDI Shopkeepers "Rohtnok"
+#ADDI Shopkeepers "Moros"
+#ADDI Shopkeepers "Eronk"
+#ADDI Shopkeepers "Deala'Qata"
+#ADDI Shopkeepers "Leinia"
+#ADDI Shopkeepers "Amil"
+#ADDI Shopkeepers "Dabuk"
+#ADDI Shopkeepers "Ercha"
+#ADDI Shopkeepers "Emion" //mercshop
+#ADDI Shopkeepers "Jarain" //pelsmith
+#ADDI Shopkeepers "Ramthur" //pelarm
+#ADDI Shopkeepers "Hamani" //edoshop
+#ADDI Shopkeepers "Noriel" //edowep
+#ADDI Shopkeepers "Ghayth" //dgshop
+#ADDI Shopkeepers "Dhanus" //dgarch
+#ADDI Shopkeepers "Bored orc" //daleshop
+#ADDI Shopkeepers "Tadark" //AlShop
+#ADDI Shopkeepers "merchant" //AsuInn
+#ADDI Shopkeepers "Rohtnok" //PeltSHop
+#VAR Shopkeepers {%dups(@Shopkeepers)} {} VAR
+
+
+#CLASS 0
