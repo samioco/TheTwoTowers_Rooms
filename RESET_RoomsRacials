@@ -1,0 +1,27 @@
+#CLASS 0
+#VAR Racials {} {} VAR
+#ADDI Racials "Tarzhayan"
+#ADDI Racials "Turseg"
+#ADDI Racials "TurBar"
+#ADDI Racials "Azrakadar"
+#ADDI Racials "Azrazayan"
+#ADDI Racials "Azmaroth"
+#ADDI Racials "Khemnahr"
+#ADDI Racials "Telshar"
+#ADDI Racials "Tavorus"
+#ADDI Racials "Asubuhi"
+#ADDI Racials "EasterlingCamp_Firepit"
+#ADDI Racials "GreyHavens"
+#ADDI Racials "GreyHavensSquare"
+#ADDI Racials "Belegost"
+#ADDI Racials "Hobbiton"
+#ADDI Racials "Bywater"
+#ADDI Racials "Bree"
+#ADDI Racials "PrancingPonyParlour"
+#ADDI Racials "Rivendell"
+#ADDI Racials "Elrond"
+#ADDI Racials "Druwaur"
+#ADDI Racials "Adornas"
+
+RESET_Rooms_Lookup "Racials" "Racials"
+#CLASS 0
