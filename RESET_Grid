@@ -1,0 +1,16 @@
+#CLASS 0
+#VAR ROOMS_Grid {} {} VAR
+RESET_GridRoomsJunctions
+RESET_GridRoomsGates
+RESET_GridRoomsRoads
+RESET_GridRoomsPlains
+RESET_GridRoomsWater
+RESET_GridRoomsBarren
+RESET_GridRoomsForests
+RESET_GridRoomsRocky
+RESET_GridRoomsCity
+#FORALL @ROOMS_Login {#ADDI ROOMS_Grid %i}
+RESET_GridRoomsAddMisc
+RESET_GridRoomsMisc
+#DELI ROOMS_Grid ""
+#CLASS 0
